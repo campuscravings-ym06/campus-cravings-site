@@ -1,0 +1,10 @@
+.w-nav-brand {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.w-nav-brand img {
+  max-height: 500px;
+  width: auto;
+  display: block;
+}

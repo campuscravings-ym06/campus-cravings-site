@@ -1,0 +1,976 @@
+Uri: https://cdn.jsdelivr.net/npm/@finsweet/attributes-scrolldisable@1/scrolldisable.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\@finsweet\attributes-scrolldisable@1\scrolldisable.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/@finsweet/attributes-starrating@1/starrating.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\@finsweet\attributes-starrating@1\starrating.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\@finsweet\cookie-consent@1\fs-cc.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\gsap@3.12.5\dist\Draggable.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\gsap@3.12.5\dist\gsap.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\gsap@3.12.5\dist\ScrollToPlugin.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\gsap@3.12.5\dist\ScrollTrigger.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\swiper@11\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\npm\swiper@11\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d5d_logo.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d5d_logo.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d5e_GTPressuraMono.woff2
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d5e_GTPressuraMono.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d5f_ATCDuelRound-V4.woff2
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d5f_ATCDuelRound-V4.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d60_ATCDuel-V4.woff2
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d60_ATCDuel-V4.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d61_ATCDuelRound-V4Italic.woff2
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d61_ATCDuelRound-V4Italic.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d62_ATCDuel-V4Oblique.woff2
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d62_ATCDuel-V4Oblique.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d63_GTPressuraMono-Light.woff2
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d63_GTPressuraMono-Light.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d67_hero-slide.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d67_hero-slide.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d81_pretty-patty-gif.gif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d81_pretty-patty-gif.gif
+Content Type: image/gif
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d82_PP-sticker-02.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d82_PP-sticker-02.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d87_PP-sticker-03.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d87_PP-sticker-03.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d93_beard-2.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d93_beard-2.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d94_beard.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d94_beard.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d95_glasses.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d95_glasses.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d96_hat.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d96_hat.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d97_team-mobile.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d97_team-mobile.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d98_glasses-2.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d98_glasses-2.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d9a_chef hat.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d9a_chef hat.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855d9c_we-img-1.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855d9c_we-img-1.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855daf_Leaf.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855daf_Leaf.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855db1_paper-bg.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855db1_paper-bg.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855db4_mustache.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855db4_mustache.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855db5_Sweets.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855db5_Sweets.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855db7_Sides.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855db7_Sides.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855db8_Smashburgers.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855db8_Smashburgers.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855db9_loc-bg-divider.png
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855db9_loc-bg-divider.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dba_loc-bg-divider-mobile.png
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dba_loc-bg-divider-mobile.png
+Content Type: image/png
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dbd_Arrow 08.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dbd_Arrow 08.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dbe_a9f66de1e870ff36cffc4af2c0f13a69.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dbe_a9f66de1e870ff36cffc4af2c0f13a69.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5-p-2600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5-p-2600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc6_Variant5.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc6_Variant5.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723a1cf93ba512237855dc8_Pretty Patty Février 2023-37 1.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723a1cf93ba512237855dc8_Pretty Patty Février 2023-37 1.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723d35b0407476d14f87b3f_Copy of Copy of PP_STICKERS_7 1.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723d35b0407476d14f87b3f_Copy of Copy of PP_STICKERS_7 1.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6723d40e0bac33d2df11fb32_Mask group.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6723d40e0bac33d2df11fb32_Mask group.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video-p-2600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video-p-2600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ca223b3e7b7b97aa86fb1_Video.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ca223b3e7b7b97aa86fb1_Video.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672cddeacb5a0c884571bd4f_Ellipse 2.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672cddeacb5a0c884571bd4f_Ellipse 2.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce4401d85958fb5d22bcc_Banner Print-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce4401d85958fb5d22bcc_Banner Print-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce4401d85958fb5d22bcc_Banner Print-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce4401d85958fb5d22bcc_Banner Print-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce4401d85958fb5d22bcc_Banner Print-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce4401d85958fb5d22bcc_Banner Print-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce4401d85958fb5d22bcc_Banner Print-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce4401d85958fb5d22bcc_Banner Print-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce4401d85958fb5d22bcc_Banner Print.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce4401d85958fb5d22bcc_Banner Print.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce5b366bd0adfc0a8d358_Illustration-Photo (40)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce5b366bd0adfc0a8d358_Illustration-Photo (40)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672ce5b366bd0adfc0a8d358_Illustration-Photo (40).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672ce5b366bd0adfc0a8d358_Illustration-Photo (40).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672cea4bfc6ed88b36ab76ac_Close_LG.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672cea4bfc6ed88b36ab76ac_Close_LG.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672cf52a5773455ada0cca3d_Close_LG.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672cf52a5773455ada0cca3d_Close_LG.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672cf559bc8cfc135ac068bf_Frame 1686556912.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672cf559bc8cfc135ac068bf_Frame 1686556912.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672cf6f5e7b125d1be18a885_Banner Print (1)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672cf6f5e7b125d1be18a885_Banner Print (1)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672cf6f5e7b125d1be18a885_Banner Print (1).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672cf6f5e7b125d1be18a885_Banner Print (1).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcc5c01537512846ec062_Frame 1686556908-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcc5c01537512846ec062_Frame 1686556908-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcc5c01537512846ec062_Frame 1686556908.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcc5c01537512846ec062_Frame 1686556908.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcce420545cb92d162fa4_Stickers.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcce420545cb92d162fa4_Stickers.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcdaad8004489b3110a29_Stickers (1) (1).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcdaad8004489b3110a29_Stickers (1) (1).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcecaac5dcacecfba36dc_Illustration-Photo (42)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcecaac5dcacecfba36dc_Illustration-Photo (42)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcecaac5dcacecfba36dc_Illustration-Photo (42).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcecaac5dcacecfba36dc_Illustration-Photo (42).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcf10f690397bc63b6589_Illustration-Photo (43)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcf10f690397bc63b6589_Illustration-Photo (43)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/672dcf10f690397bc63b6589_Illustration-Photo (43).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\672dcf10f690397bc63b6589_Illustration-Photo (43).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6735b9f37049694d96095db9_Mail.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6735b9f37049694d96095db9_Mail.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/675837fe37ab9deb236d0f7a_FAVICON-32x32 (1).jpg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\675837fe37ab9deb236d0f7a_FAVICON-32x32 (1).jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6758380d60a51d361cecb79d_FAVICON-256x256.jpg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6758380d60a51d361cecb79d_FAVICON-256x256.jpg
+Content Type: image/jpeg
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/67878567547cafad206f4ede_hand-heart-svgrepo-com.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\67878567547cafad206f4ede_hand-heart-svgrepo-com.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/678785e427c68f624925cdf6_superman-man-hero-superhuman-svgrepo-com.svg
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\678785e427c68f624925cdf6_superman-man-hero-superhuman-svgrepo-com.svg
+Content Type: image/svg+xml
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3)-p-2600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3)-p-2600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/6791102d7e9914920117860b_Image (3).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\6791102d7e9914920117860b_Image (3).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/67935dc4375e4b96e2fee675_Frame 2087324950-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\67935dc4375e4b96e2fee675_Frame 2087324950-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/67935dc4375e4b96e2fee675_Frame 2087324950-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\67935dc4375e4b96e2fee675_Frame 2087324950-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/67935dc4375e4b96e2fee675_Frame 2087324950.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\67935dc4375e4b96e2fee675_Frame 2087324950.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/css/pretty-patty-stage.webflow.shared.16df524ba.min.css
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\css\pretty-patty-stage.webflow.shared.16df524ba.min.css
+Content Type: text/css
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/js/webflow.9d345240.2724a1bc01843df2.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\js\webflow.9d345240.2724a1bc01843df2.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/js/webflow.ab0a15d1.c193a870cc272550.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\js\webflow.ab0a15d1.c193a870cc272550.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/js/webflow.c334aaee.84111272c37b5e7d.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\js\webflow.c334aaee.84111272c37b5e7d.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/js/webflow.schunk.36b8fb49256177c8.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\js\webflow.schunk.36b8fb49256177c8.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d35/js/webflow.schunk.8654112bfb7758c3.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d35\js\webflow.schunk.8654112bfb7758c3.js
+Content Type: text/javascript
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855d79_Stickers-fancy.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855d79_Stickers-fancy.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dc3_Illustration-Photo-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dc3_Illustration-Photo-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dc3_Illustration-Photo.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dc3_Illustration-Photo.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dc4_Illustration-Photo (1).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dc4_Illustration-Photo (1).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dc4_Illustration-Photo%2520(1)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dc4_Illustration-Photo%20(1)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dca_Illustration-Photo (2).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dca_Illustration-Photo (2).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dca_Illustration-Photo%2520(2)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dca_Illustration-Photo%20(2)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcb_Illustration-Photo (3).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcb_Illustration-Photo (3).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcb_Illustration-Photo%2520(3)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcb_Illustration-Photo%20(3)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcc_Illustration-Photo (4).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcc_Illustration-Photo (4).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcc_Illustration-Photo%2520(4)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcc_Illustration-Photo%20(4)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcd_Illustration-Photo (5).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcd_Illustration-Photo (5).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcd_Illustration-Photo%2520(5)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcd_Illustration-Photo%20(5)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dcf_16f9b55e7c61818fd2a52d976341d62c.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd0_843db740c6c8c833abcc6c3e55a50f44.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd1_Illustration-Photo (6).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd1_Illustration-Photo (6).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd1_Illustration-Photo%2520(6)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd1_Illustration-Photo%20(6)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd2_Illustration-Photo (7).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd2_Illustration-Photo (7).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd2_Illustration-Photo%2520(7)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd2_Illustration-Photo%20(7)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd3_Illustration-Photo (7) (1).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd3_Illustration-Photo (7) (1).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd3_Illustration-Photo%2520(7)%2520(1)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd3_Illustration-Photo%20(7)%20(1)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd4_Illustration-Photo (8).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd4_Illustration-Photo (8).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd4_Illustration-Photo%2520(8)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd4_Illustration-Photo%20(8)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd5_Illustration-Photo (9).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd5_Illustration-Photo (9).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855dd5_Illustration-Photo%2520(9)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855dd5_Illustration-Photo%20(9)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e1e_fancy.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e1e_fancy.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e33_classic.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e33_classic.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e34_classic-sticker.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e34_classic-sticker.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e35_oklahoma.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e35_oklahoma.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e36_oklahoma burger.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e36_oklahoma burger.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e3e_cookies.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e3e_cookies.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e3f_cookies-2.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e3f_cookies-2.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e40_HOMEMADE ICE TEA.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e40_HOMEMADE ICE TEA.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e41_HOMEMADE LEMONADE.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e41_HOMEMADE LEMONADE.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e45_COCA-COLA.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e45_COCA-COLA.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e46_COCA-COLA ZERO.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e46_COCA-COLA ZERO.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e47_FANTA.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e47_FANTA.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6723a1cf93ba512237855e49_KOMBUCHA.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6723a1cf93ba512237855e49_KOMBUCHA.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a559a852deb2d70ae1ea_Illustration-Photo (24)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a559a852deb2d70ae1ea_Illustration-Photo (24).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a559a852deb2d70ae1ea_Illustration-Photo (24).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5771a692df2244866e5_Illustration-Photo (25)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5771a692df2244866e5_Illustration-Photo (25)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5771a692df2244866e5_Illustration-Photo (25)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5771a692df2244866e5_Illustration-Photo (25)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5771a692df2244866e5_Illustration-Photo (25)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5771a692df2244866e5_Illustration-Photo (25)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5771a692df2244866e5_Illustration-Photo (25)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5771a692df2244866e5_Illustration-Photo (25)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5771a692df2244866e5_Illustration-Photo (25)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5771a692df2244866e5_Illustration-Photo (25)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5771a692df2244866e5_Illustration-Photo (25).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5771a692df2244866e5_Illustration-Photo (25).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a58d823aa3f4abc99987_Illustration-Photo (26)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a58d823aa3f4abc99987_Illustration-Photo (26).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a58d823aa3f4abc99987_Illustration-Photo (26).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5a529ef09a57ead58c2_Illustration-Photo (27)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a5a529ef09a57ead58c2_Illustration-Photo (27).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a5a529ef09a57ead58c2_Illustration-Photo (27).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6799ced4b809516a01a_Illustration-Photo (32)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6799ced4b809516a01a_Illustration-Photo (32)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6799ced4b809516a01a_Illustration-Photo (32)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6799ced4b809516a01a_Illustration-Photo (32)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6799ced4b809516a01a_Illustration-Photo (32)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6799ced4b809516a01a_Illustration-Photo (32)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6799ced4b809516a01a_Illustration-Photo (32)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6799ced4b809516a01a_Illustration-Photo (32)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6799ced4b809516a01a_Illustration-Photo (32)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6799ced4b809516a01a_Illustration-Photo (32)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6799ced4b809516a01a_Illustration-Photo (32).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6799ced4b809516a01a_Illustration-Photo (32).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a68ce50f1d4bb74d01ee_Illustration-Photo (33)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a68ce50f1d4bb74d01ee_Illustration-Photo (33).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a68ce50f1d4bb74d01ee_Illustration-Photo (33).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6a239d2196fb1987c6a_Illustration-Photo (34)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6a239d2196fb1987c6a_Illustration-Photo (34).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6a239d2196fb1987c6a_Illustration-Photo (34).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-1600.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-1600.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-2000.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-2000.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6b8939e75c1c20d6cb2_Illustration-Photo (35)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724a6b8939e75c1c20d6cb2_Illustration-Photo (35).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724a6b8939e75c1c20d6cb2_Illustration-Photo (35).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c41f99b4bcacd22629b3_HALF HALF (1)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c41f99b4bcacd22629b3_HALF HALF (1)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c41f99b4bcacd22629b3_HALF HALF (1)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c41f99b4bcacd22629b3_HALF HALF (1)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c41f99b4bcacd22629b3_HALF HALF (1).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c41f99b4bcacd22629b3_HALF HALF (1).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c4c9e3032efa594ffc71_SWEET POTATO FRIES-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c4c9e3032efa594ffc71_SWEET POTATO FRIES-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c4c9e3032efa594ffc71_SWEET POTATO FRIES-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c4c9e3032efa594ffc71_SWEET POTATO FRIES-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c4c9e3032efa594ffc71_SWEET POTATO FRIES.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c4c9e3032efa594ffc71_SWEET POTATO FRIES.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c4e83acde20fc955eaf5_GOLDEN FRIES-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c4e83acde20fc955eaf5_GOLDEN FRIES-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c4e83acde20fc955eaf5_GOLDEN FRIES-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c4e83acde20fc955eaf5_GOLDEN FRIES-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c4e83acde20fc955eaf5_GOLDEN FRIES.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c4e83acde20fc955eaf5_GOLDEN FRIES.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c5e665795721de149fa5_HALF ICE TEA %26 HALF LEMONADE.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c5e665795721de149fa5_HALF ICE TEA & HALF LEMONADE.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c6039ced4b8095338859_MATE.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c6039ced4b8095338859_MATE.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c6204488f8d03d200785_SPARKLING WATER.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c6204488f8d03d200785_SPARKLING WATER.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6724c63b7807d3209b643ed2_STILL WATER.avif
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6724c63b7807d3209b643ed2_STILL WATER.avif
+Content Type: application/octet-stream
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/672e2b9adcaa23ecaaa1c5fb_Oklahoma-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\672e2b9adcaa23ecaaa1c5fb_Oklahoma-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/672e2b9adcaa23ecaaa1c5fb_Oklahoma-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\672e2b9adcaa23ecaaa1c5fb_Oklahoma-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/672e2b9adcaa23ecaaa1c5fb_Oklahoma.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\672e2b9adcaa23ecaaa1c5fb_Oklahoma.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/672e2bab12b0da2e9b3baa43_Copy of Copy of PP_STICKERS_9 1.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\672e2bab12b0da2e9b3baa43_Copy of Copy of PP_STICKERS_9 1.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674458eafbd591eb4877cf91_Illustration-Photo (44)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674458eafbd591eb4877cf91_Illustration-Photo (44)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674458eafbd591eb4877cf91_Illustration-Photo (44)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674458eafbd591eb4877cf91_Illustration-Photo (44)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674458eafbd591eb4877cf91_Illustration-Photo (44)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674458eafbd591eb4877cf91_Illustration-Photo (44)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674458eafbd591eb4877cf91_Illustration-Photo (44).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674458eafbd591eb4877cf91_Illustration-Photo (44).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/67445917c7a0acf6de5dbae6_Illustration-Photo (45)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\67445917c7a0acf6de5dbae6_Illustration-Photo (45)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/67445917c7a0acf6de5dbae6_Illustration-Photo (45).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\67445917c7a0acf6de5dbae6_Illustration-Photo (45).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d81268df950c013d41d52_c0784c161460887.63c5c3d53fb06-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d81268df950c013d41d52_c0784c161460887.63c5c3d53fb06-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d81268df950c013d41d52_c0784c161460887.63c5c3d53fb06.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d81268df950c013d41d52_c0784c161460887.63c5c3d53fb06.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d82c78cc17c98c396a759_Illustration-Photo (1)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d82c78cc17c98c396a759_Illustration-Photo (1)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d82c78cc17c98c396a759_Illustration-Photo (1).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d82c78cc17c98c396a759_Illustration-Photo (1).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d832a912400fb2c0f8f6a_Illustration-Photo (2)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d832a912400fb2c0f8f6a_Illustration-Photo (2)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d832a912400fb2c0f8f6a_Illustration-Photo (2).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d832a912400fb2c0f8f6a_Illustration-Photo (2).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d8380fe6249151dbf37d1_Illustration-Photo (3)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d8380fe6249151dbf37d1_Illustration-Photo (3)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d8380fe6249151dbf37d1_Illustration-Photo (3).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d8380fe6249151dbf37d1_Illustration-Photo (3).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d83c8dc93036fc9123ccf_Illustration-Photo (4)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d83c8dc93036fc9123ccf_Illustration-Photo (4)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d83c8dc93036fc9123ccf_Illustration-Photo (4).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d83c8dc93036fc9123ccf_Illustration-Photo (4).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d843f79fc1fd8f4482082_Illustration-Photo (6)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d843f79fc1fd8f4482082_Illustration-Photo (6)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d843f79fc1fd8f4482082_Illustration-Photo (6).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d843f79fc1fd8f4482082_Illustration-Photo (6).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d847b7cbfab1e09194aab_Illustration-Photo (7)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d847b7cbfab1e09194aab_Illustration-Photo (7)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/674d847b7cbfab1e09194aab_Illustration-Photo (7).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\674d847b7cbfab1e09194aab_Illustration-Photo (7).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6751b983aa2a2e5ab5ef0e5a_Illustration-Photo (10)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6751b983aa2a2e5ab5ef0e5a_Illustration-Photo (10)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6751b983aa2a2e5ab5ef0e5a_Illustration-Photo (10).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6751b983aa2a2e5ab5ef0e5a_Illustration-Photo (10).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6751bcb304614edf27733435_Illustration-Photo (11)-p-1080.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6751bcb304614edf27733435_Illustration-Photo (11)-p-1080.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6751bcb304614edf27733435_Illustration-Photo (11)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6751bcb304614edf27733435_Illustration-Photo (11)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6751bcb304614edf27733435_Illustration-Photo (11)-p-800.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6751bcb304614edf27733435_Illustration-Photo (11)-p-800.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/6751bcb304614edf27733435_Illustration-Photo (11).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\6751bcb304614edf27733435_Illustration-Photo (11).webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/67c81497802908b365b402d4_image (6)-p-500.webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\67c81497802908b365b402d4_image (6)-p-500.webp
+Content Type: image/webp
+
+Uri: https://cdn.prod.website-files.com/6723a1cf93ba512237855d56/67c81497802908b365b402d4_image (6).webp
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\6723a1cf93ba512237855d56\67c81497802908b365b402d4_image (6).webp
+Content Type: image/webp
+
+Uri: https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6723a1cf93ba512237855d35
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\js\jquery-3.5.1.min.dc5e7f18c8.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/lenis@1.1.2/dist/lenis.min.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\lenis@1.1.2\dist\lenis.min.js
+Content Type: text/javascript
+
+Uri: https://www.instagram.com/embed.js
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\embed.js
+Content Type: application/x-javascript
+
+Uri: https://www.prettypatty.ch/
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\index.htm
+Content Type: text/html
+
+Uri: https://www.prettypatty.ch/about-us
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\about-us.html
+Content Type: text/html
+
+Uri: https://www.prettypatty.ch/cookies-policy
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\cookies-policy.html
+Content Type: text/html
+
+Uri: https://www.prettypatty.ch/locations
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\locations.html
+Content Type: text/html
+
+Uri: https://www.prettypatty.ch/menu
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\menu.html
+Content Type: text/html
+
+Uri: https://www.prettypatty.ch/privacy-policy
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\privacy-policy.html
+Content Type: text/html
+
+Uri: https://www.prettypatty.ch/terms-conditions
+File Name: C:\Downloaded Web Sites\www.prettypatty.ch\terms-conditions.html
+Content Type: text/html
+
