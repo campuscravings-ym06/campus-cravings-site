@@ -25,7 +25,7 @@ export default function Order () {
                               <div className="location-slide__img-wrap location-height">
                                 <img
                                   src="/assets/images/Location (1).png"
-                                  loading="lazy" alt=""
+                                  alt=""
                                   sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
                                   srcSet="/assets/images/Location (1).png 500w, /assets/images/Location (1).png 800w, /assets/images/Location.png 1080w, /assets/images/Location (1).png 1600w, /assets/images/Location (1).png 2000w"
                                   className="location-slide__img location-height location-pos"/>
