@@ -8,19 +8,17 @@ export default function Order () {
           <div className="w-layout-blockcontainer container in-location w-container">
             <div className="wrap p-locations-wrap">
               <div id="w-node-_090e04ad-0ab6-47bf-ca84-c54f63c1fd67-37855d76" className="p-locations__heading">
-                <h1 data-w-id="b61f46c8-f084-b7ee-246a-28a07447be77" style={{opacity: 0}} className="p-locations__h1">HOW TO
+                <h1 data-w-id="b61f46c8-f084-b7ee-246a-28a07447be77" className="p-locations__h1">HOW TO
                   ORDER?</h1>
               </div>
               <div className="slider location-slider">
-                <div data-w-id="ebc00dd7-0714-55d7-44a4-d887ca1c3924" style={{opacity: 0}}
+                <div data-w-id="ebc00dd7-0714-55d7-44a4-d887ca1c3924"
                   className="location-collection w-dyn-list">
                   <div role="list" className="location-list w-dyn-items">
                     <div role="listitem" className="location-item w-dyn-item">
                       <div className="location-slide">
                         <div id="location-1"
                           className="swiper location-slider__track location-slider__in-location w-dyn-list">
-                          <script type="text/x-wf-template"
-                            id="wf-template-c0a879cd-459e-930f-8226-d94e13e837c3">%3Cdiv%20role%3D%22listitem%22%20class%3D%22swiper-slide%20location-slider__slide%20w-dyn-item%20w-dyn-repeater-item%22%3E%3Cdiv%20class%3D%22location-slide__img-wrap%20location-height%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24).webp%22%20loading%3D%22lazy%22%20alt%3D%22%22%20sizes%3D%22(max-width%3A%20767px)%20100vw%2C%20(max-width%3A%20991px)%20728px%2C%20940px%22%20srcset%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24)-p-500.webp%20500w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24)-p-800.webp%20800w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24)-p-1080.webp%201080w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24)-p-1600.webp%201600w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24)-p-2000.webp%202000w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a559a852deb2d70ae1ea_Illustration-Photo%2520(24).webp%202324w%22%20class%3D%22location-slide__img%20location-height%22%2F%3E%3C%2Fdiv%3E%3C%2Fdiv%3E</script>
                           <div role="list" className="swiper-wrapper location-slider__list w-dyn-items">
                             <div role="listitem"
                               className="swiper-slide location-slider__slide w-dyn-item w-dyn-repeater-item">
@@ -43,10 +41,7 @@ export default function Order () {
                     <div role="listitem" className="location-item w-dyn-item">
                       <div className="location-slide">
                         <div id="location-2"
-                          className="swiper location-slider__track location-slider__in-location w-dyn-list">
-                          <script type="text/x-wf-template"
-                            id="wf-template-c0a879cd-459e-930f-8226-d94e13e837c3">%3Cdiv%20role%3D%22listitem%22%20class%3D%22swiper-slide%20location-slider__slide%20w-dyn-item%20w-dyn-repeater-item%22%3E%3Cdiv%20class%3D%22location-slide__img-wrap%20location-height%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32).webp%22%20loading%3D%22lazy%22%20alt%3D%22%22%20sizes%3D%22(max-width%3A%20767px)%20100vw%2C%20(max-width%3A%20991px)%20728px%2C%20940px%22%20srcset%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32)-p-500.webp%20500w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32)-p-800.webp%20800w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32)-p-1080.webp%201080w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32)-p-1600.webp%201600w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32)-p-2000.webp%202000w%2C%20https%3A%2F%2Fcdn.prod.website-files.com%2F6723a1cf93ba512237855d56%2F6724a6799ced4b809516a01a_Illustration-Photo%2520(32).webp%202324w%22%20class%3D%22location-slide__img%20location-height%22%2F%3E%3C%2Fdiv%3E%3C%2Fdiv%3E</script>
-                          </div>
+                          className="swiper location-slider__track location-slider__in-location w-dyn-list"></div>
                           <div className="w-dyn-hide w-dyn-empty">
                             <div>No items found.</div>
                           </div>
