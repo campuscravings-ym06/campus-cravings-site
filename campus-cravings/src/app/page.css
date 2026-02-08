@@ -1,0 +1,103 @@
+@media (min-width:992px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="132d28c5-b070-8108-c9dd-80b99daad65e"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="aaae2159-6ba0-15ce-dd7d-dd3116c4f5e4"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="c92d8e39-66d1-1c70-1304-e327bebafff8"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="b417270c-7252-d44d-b5de-d4ad8467320d"] {
+        opacity: 0;
+      }
+    }
+
+    @media (max-width:991px) and (min-width:768px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="132d28c5-b070-8108-c9dd-80b99daad65e"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="aaae2159-6ba0-15ce-dd7d-dd3116c4f5e4"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="c92d8e39-66d1-1c70-1304-e327bebafff8"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="b417270c-7252-d44d-b5de-d4ad8467320d"] {
+        opacity: 0;
+      }
+    }
+
+    @media (max-width:767px) and (min-width:480px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="132d28c5-b070-8108-c9dd-80b99daad65e"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="aaae2159-6ba0-15ce-dd7d-dd3116c4f5e4"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="c92d8e39-66d1-1c70-1304-e327bebafff8"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df"] {
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="b417270c-7252-d44d-b5de-d4ad8467320d"] {
+        opacity: 0;
+      }
+    }
+
+/* Show anything Webflow hid until “interactions” */
+    [data-w-id] {
+      opacity: 1 !important;
+      transform: none !important;
+      visibility: visible !important;
+    }
+
+    /* Fallback: if Swiper isn't running yet, don't hide slides */
+    .about-slider__slide,
+    .swiper-slide {
+      opacity: 1 !important;
+      transform: none !important;
+    }

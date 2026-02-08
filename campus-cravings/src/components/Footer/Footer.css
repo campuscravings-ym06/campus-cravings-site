@@ -1,0 +1,54 @@
+.footer-social-wrap {
+    grid-column-gap: .75rem;
+    display: flex
+}
+
+.footer-contact-wrap {
+    grid-column-gap: .5rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1.44rem;
+    display: flex;
+    position: relative;
+    bottom: -.06rem
+}
+
+.footer-contact-title {
+    color: var(--color--primary-beige);
+    letter-spacing: .0175rem;
+    text-transform: uppercase;
+    font-family: GTPressuraMono, sans-serif;
+    font-size: .875rem;
+    font-weight: 400
+}
+
+.footer-contact-link-wrap {
+    grid-column-gap: .37rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex
+}
+
+.footer-contact-icon {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
+.footer-contact-link {
+    color: var(--color--primary-beige);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 135%
+}
+
+.logo.in-footer {
+    height:10rem;
+    width: 10rem;
+    margin-bottom: .8rem;
+    margin-right: 12.5rem
+}
+
+.logo.in-footer.w--current {
+    margin-right: 0
+}

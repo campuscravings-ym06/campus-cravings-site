@@ -3409,6 +3409,7 @@ em {
 }
 
 .slider-arrows.menu-arrows {
+    width: 97%;
     display: flex;
     top: 30%
 }
@@ -3506,7 +3507,9 @@ em {
 }
 
 .location-slide {
-    position: relative
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .location-slide__img-wrap {

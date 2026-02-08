@@ -1,0 +1,21 @@
+@media (max-width : 600px) {
+    .menu-items {
+        max-width: 100vw;
+    }
+}
+
+.menu-items {
+    display: flex; 
+    flex-direction: row;
+    max-width: 90vw;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.menu-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
