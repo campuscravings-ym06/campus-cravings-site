@@ -153,11 +153,11 @@
         }
 
         .lenis.lenis-smooth {
-          scroll - behavior: auto !important;
+          scroll-behavior: auto !important;
         }
 
         .lenis.lenis-smooth [data-lenis-prevent] {
-          overscroll - behavior: contain;
+          overscroll-behavior: contain;
         }
 
         .lenis.lenis-stopped {
@@ -165,21 +165,21 @@
         }
 
         .lenis.lenis-smooth iframe {
-          pointer - events: none;
+          pointer-events: none;
         }
 
         :root {
-          --column - count: 12;
-          --breakout-gutter: minmax(calc(var(--padding-horizontal--main) - var(--grid-gap--main)), 1fr);
-          --breakout-remaining: calc(var(--max-width--main) - (var(--padding-horizontal--main) * 2));
+          --column-count: 12;
+          --breakout-gutter: minmax(calc(var(--padding-horizontal--main)-var(--grid-gap--main)), 1fr);
+          --breakout-remaining: calc(var(--max-width--main)-(var(--padding-horizontal--main) * 2));
           --breakout-start: [full-start] var(--breakout-gutter) [content-start];
           --breakout-end: [content-end] var(--breakout-gutter) [full-end];
           --grid-breakout-single: var(--breakout-start) minmax(0, var(--breakout-remaining)) var(--breakout-end);
-          --grid-breakout: var(--breakout-start) repeat(var(--column-count), minmax(0, calc((var(--breakout-remaining) - (var(--grid-gap--main) * (var(--column-count) - 1))) / var(--column-count)))) var(--breakout-end);
+          --grid-breakout: var(--breakout-start) repeat(var(--column-count), minmax(0, calc((var(--breakout-remaining)-(var(--grid-gap--main) * (var(--column-count)-1))) / var(--column-count)))) var(--breakout-end);
         }
         /* Make text look crisper and more legible in all browsers */
         body {
-          -webkit - font - smoothing: antialiased;
+          -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           font-smoothing: antialiased;
         }
@@ -190,27 +190,27 @@
       /* Fluid responsive    */
         @media (min-width: 1440px) and (min-height: 900px){
           html {
-            font - size: 16px;
+            font-size: 16px;
           }
         }
         @media (min-width: 1024px) and (max-height: 899px) {
           html{
-            font - size: calc(14*(100vw / 1440));
+            font-size: calc(14*(100vw / 1440));
           }
         }
         @media (max-width: 1024px) {
           html {
-            font - size: calc(16*(100vw / 1440));
+            font-size: calc(16*(100vw / 1440));
           }
         }
         @media (max-width: 479px) {
           html {
-            font - size: calc(16*(100vw / 375));
+            font-size: calc(16*(100vw / 375));
           }
         }
         @media (min-width: 1921px) {
           html {
-            font - size: calc(16*(100vw / 1920));
+            font-size: calc(16*(100vw / 1920));
           };
         }
 
@@ -237,20 +237,20 @@
         }
 
         * {
-          -webkit - tap - highlight - color: transparent;
+          -webkit-tap-highlight-color: transparent;
         }
 
 
         /* Apply "..." after 3 lines of text */
         .text-style-3lines {
-          display: -webkit-box;
+          display:-webkit-box;
           overflow: hidden;
           -webkit-line-clamp: 3;
           -webkit-box-orient: vertical;
         }
 
         .delivery-modal__content {
-          -ms - overflow - style: none;  /* Internet Explorer 10+ */
+          -ms-overflow-style: none;  /* Internet Explorer 10+ */
           scrollbar-width: none;  /* Firefox */
         }
         .delivery-modal__content::-webkit-scrollbar {
@@ -277,7 +277,7 @@
         input:autofill,
         input:autofill:hover,
         input:autofill:focus {
-          text - fill - color: var(--text-black-100);
+          text-fill-color: var(--text-black-100);
           -webkit-text-fill-color: var(--text-black-100);
           box-shadow: 0 0 0px 40rem #fff inset;
           -webkit-box-shadow: 0 0 0px 40rem #fff inset;
@@ -287,7 +287,7 @@
         input:-webkit-autofill,
         input:-webkit-autofill:hover,
         input:-webkit-autofill:focus {
-          text - fill - color: var(--text-black-100);
+          text-fill-color: var(--text-black-100);
           -webkit-text-fill-color: var(--text-black-100);
           box-shadow: 0 0 0px 40rem #fff inset;
           -webkit-box-shadow: 0 0 0px 40rem #fff inset;
@@ -295,7 +295,7 @@
         }
 
         .slider-arrow.swiper-button-disabled {
-          border - color: var(--color--shades-light-grey);
+          border-color: var(--color--shades-light-grey);
           color: var(--color--shades-light-grey);
           pointer-events: none;
         }
@@ -330,8 +330,8 @@
 
 
         @keyframes rotateText {
-          0 % { transform: rotate(0deg); }
-          100% {transform: rotate(360deg); }
+          0%{transform:rotate(0deg); }
+          100% {transform:rotate(360deg); }
         }
 
         @media (hover: hover) and (pointer: fine) and (min-width: 1025px) {
@@ -350,7 +350,7 @@
             color: var(--color--primary-black);
           }
           .slider-arrow:hover {
-            background - color: var(--color--secondary-red);
+            background-color: var(--color--secondary-red);
             color: var(--color--primary-white);
           }
           .social__link:hover {
@@ -361,7 +361,7 @@
             background: var(--color--primary-white);
           }
           .input.in-form-2:hover {
-            border - color: var(--color--primary-blue);
+            border-color: var(--color--primary-blue);
             color: var(--color--primary-blue);
           }
           .input.in-form-2:hover::placeholder {
@@ -375,7 +375,7 @@
           }
 
           .mission__card:hover .mission__card-inner {
-            border - color: var(--color--primary-black);
+            border-color: var(--color--primary-black);
             box-shadow: 6px 6px 0px 0px var(--color--secondary-yellow);
             color: var(--color--primary-black);
           }
@@ -390,18 +390,18 @@
           border-color: var(--color--shades-dark-red)!important;
         }
         .input.in-form-2:not(:placeholder-shown) {
-          border - color: var(--color--primary-blue);
+          border-color: var(--color--primary-blue);
           color: var(--color--primary-blue);
         }
 
         @media (min-height: 900px) and (min-width: 1025px) {
-          .mission__card - inner {
+          .mission__card-inner {
             padding: 2.25rem 1rem;
           }
         }
 
         @media (min-width: 480px) {
-          .menu - slider__slide.swiper - slide - next.menu - slide__img - wrap {
+          .menu-slider__slide.swiper-slide-next.menu-slide__img-wrap {
             transform: scale(1.75);
           }
 
@@ -447,17 +447,17 @@
           }
 
           .swiper-wrapper.slides-center{
-            justify - content: center;
+            justify-content: center;
           }
         
           .swiper-wrapper.slides-center > :last-child{
-            margin - right: 0 !important;
+            margin-right: 0 !important;
           }
         }
 
         @media (max-height: 700px) and (min-width: 991px) {
-          .delivery - modal__inner{
-            max - width: 40.25rem;
+          .delivery-modal__inner{
+            max-width: 40.25rem;
             max-height: 95vh;
           }
         }
@@ -478,7 +478,7 @@
             parallaxImages.forEach((image) => {
               const speed = image.dataset.speed || 0.5; // Швидкість паралаксу, задається через data-speed
               const offset = image.offsetTop; // Відстань від верху сторінки до картинки
-              image.style.backgroundPosition = `center ${(scrollY - offset) * speed}px`;
+              image.style.backgroundPosition = `center ${(scrollY-offset) * speed}px`;
             });
           });
           // Change menu bg color on scroll and page load
@@ -1020,7 +1020,7 @@
 
     const lenis = new Lenis({
       duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      easing: (t) => Math.min(1, 1.001-Math.pow(2, -10 * t)),
       gestureDirection: 'vertical', // vertical, horizontal, both
       smooth: true,
       mouseMultiplier: 1,
