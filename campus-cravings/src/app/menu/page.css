@@ -384,3 +384,33 @@ html.lenis,
             height: 0;
           }
         }
+
+
+.menu-slide__img-wrap {
+  display: inline-block;       
+  overflow: visible;           
+  transition: transform 0.3s ease; 
+  position: relative;          
+  z-index: 1;                  
+}
+
+.menu-slide__img {
+  display: block;
+  transition: transform 0.3s ease; 
+  transform-origin: top center; 
+  z-index: 2;
+  position: relative;
+}
+
+.menu-slide__sticker {
+  position: absolute;          
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+  z-index: 3;
+}
+.menu-slide__img-wrap:hover .menu-slide__img {
+  transform: scale(1.1);
+  z-index: 10; 
+}
+
