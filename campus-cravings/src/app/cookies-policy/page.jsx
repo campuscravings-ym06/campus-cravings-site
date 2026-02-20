@@ -1,4 +1,10 @@
+import ContentsTable from "../../components/ContentsTable/ContentsTable"
+
 export default function Cookies() {
+
+    const contents = ["What Are Cookies?", "How We Use Cookies", "Types Of Cookies We May Use",
+        "Managing Cookies", "Third-Party Cookies", "Updates To The Cookies Policy"
+    ]
 
     return (
         <div className="main-wrapper">
@@ -9,41 +15,7 @@ export default function Cookies() {
                         <div data-sync-scroll-items="" className="wrap policy__wrap">
                             <div className="anchor-links-wrap">
                                 <h1 className="anchor__title">Cookies Policy</h1>
-                                <div id="anchor-links" className="anchor-links">
-                                <p className="anchor__subtitle">Table of Contents</p>
-                                <a data-link="theme-1" href="#" className="anchor-link w-inline-block">
-                                    <p className="anchor-counter">1.</p>
-                                    <p className="anchor-link-text">What Are Cookies?</p>
-                                </a>
-                                <a data-link="theme-2" href="#" className="anchor-link w-inline-block">
-                                    <p className="anchor-counter">2.</p>
-                                    <p className="anchor-link-text">How We Use Cookies</p>
-                                </a>
-<a data-link="theme-3" href="#" className="anchor-link w-inline-block">
-<p className="anchor-counter">
-3.</p>
-<p className="anchor-link-text">
-Types of Cookies We May Use</p>
-</a>
-<a data-link="theme-4" href="#" className="anchor-link w-inline-block">
-<p className="anchor-counter">
-4.</p>
-<p className="anchor-link-text">
-Managing Cookies</p>
-</a>
-<a data-link="theme-5" href="#" className="anchor-link w-inline-block">
-<p className="anchor-counter">
-5.</p>
-<p className="anchor-link-text">
-Third-Party Cookies</p>
-</a>
-<a data-link="theme-6" href="#" className="anchor-link w-inline-block">
-<p className="anchor-counter">
-6.</p>
-<p className="anchor-link-text">
-Updates to the Cookies Policy</p>
-</a>
-</div>
+                                <ContentsTable contents={contents} />
 </div>
 <div className="policy__right">
 <div className="policy__box">

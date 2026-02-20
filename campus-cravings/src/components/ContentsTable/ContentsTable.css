@@ -1,0 +1,13 @@
+.policy__main-item {
+    margin-bottom: 3rem;
+}
+
+.anchor-link.active {
+  color: #3a6ecf; /* highlight color */
+  font-weight: bold;
+  border-left: 2px solid #3a6ecf;
+}
+
+a {
+    transition:all 0.0s;
+}
