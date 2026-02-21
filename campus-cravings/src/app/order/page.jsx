@@ -1,3 +1,4 @@
+import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import "./page.css"
 
 export default function Order () {
@@ -83,7 +84,7 @@ export default function Order () {
             </div>
           </div>
         <div className="banner p-locations-banner">
-          <div className="banner__image"></div>
+          <ScrollingCs/>
         </div>
       </section>
     </main>

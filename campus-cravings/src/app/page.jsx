@@ -1,3 +1,4 @@
+import ScrollingCs from '../components/ScrollingCs/ScrollingCs'
 import './page.css'
 
 export default function About() {
@@ -66,7 +67,7 @@ export default function About() {
             </div>
             </div>
             <div className="banner founders-banner">
-                <div className="banner__image"></div>
+                <ScrollingCs/>
             </div>
     </section>
   <section id="section-about" data-background="black" className="section mission">
@@ -125,7 +126,7 @@ export default function About() {
     </div>
     <div id="anchor-team" className="anchor"></div>
     <div className="banner team-banner">
-      <div className="banner__image"></div>
+      <ScrollingCs/>
     </div>
   </section>
   </main>

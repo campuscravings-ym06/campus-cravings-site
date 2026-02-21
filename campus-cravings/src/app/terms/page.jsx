@@ -1,4 +1,5 @@
 import ContentsTable from "../../components/ContentsTable/ContentsTable"
+import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 
 export default function Terms() {
 
@@ -60,7 +61,7 @@ export default function Terms() {
                         </div>
                     </div>
                     <div className="banner p-locations-banner">
-                        <div className="banner__image"></div>
+                        <ScrollingCs/>
                     </div>
                 </section>
             </div>

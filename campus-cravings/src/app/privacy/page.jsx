@@ -1,4 +1,5 @@
 import ContentsTable from "../../components/ContentsTable/ContentsTable";
+import ScrollingCs from "../../components/ScrollingCs/ScrollingCs";
 
 export default function Privacy() {
 
@@ -57,7 +58,7 @@ export default function Privacy() {
                     </div>
                 </div>
                 <div className="banner p-locations-banner">
-                    <div className="banner__image"></div>
+                    <ScrollingCs/>
                 </div>
             </section>
         </div>
