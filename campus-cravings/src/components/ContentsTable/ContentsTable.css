@@ -1,5 +1,10 @@
 .policy__main-item {
     margin-bottom: 3rem;
+    scroll-margin-top: 120px;
+}
+
+.anchor-link {
+    cursor: pointer;
 }
 
 .anchor-link.active {
