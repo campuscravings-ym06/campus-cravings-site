@@ -4,6 +4,16 @@ import "./ContentsTable.css"
 
 export default function ContentsTable({contents}) {
 
+    const handleClick = (e) => {
+        const link = e.currentTarget.dataset.link;
+        if (link) {
+            const target = document.querySelector(`[data-theme="${link}"]`)
+            if (target) {
+                target.scrollIntoView({behavior: "smooth"})
+            }
+        }
+    }
+
     useEffect(() => {
             const sections = document.querySelectorAll("[data-theme]");
             const links = document.querySelectorAll("[data-link]");
@@ -29,10 +39,10 @@ export default function ContentsTable({contents}) {
             <div id="anchor-links" className="anchor-links">
                 <p className="anchor__subtitle">Table of Contents</p>
                 {contents.map((content, index) => (
-                    <a data-link={`theme-${index + 1}`} key={`theme-${index + 1}`} href="#" className="anchor-link w-inline-block">
+                    <div data-link={`theme-${index + 1}`} key={`theme-${index + 1}`} onClick={handleClick} className="anchor-link w-inline-block">
                         <p className="anchor-counter">{index + 1}.</p>
                         <p className="anchor-link-text">{content}</p>
-                    </a>
+                    </div>
                 ))}
             </div>
         )
