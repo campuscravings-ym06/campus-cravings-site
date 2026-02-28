@@ -386,31 +386,37 @@ html.lenis,
         }
 
 
-.menu-slide__img-wrap {
-  display: inline-block;       
-  overflow: visible;           
-  transition: transform 0.3s ease; 
-  position: relative;          
-  z-index: 1;                  
+/*Changed the surrouding container size to fit the enlarged pic*/
+.swiper-slide {
+  overflow: visible !important;
+  height: 1100px !important;
 }
 
-.menu-slide__img {
-  display: block;
-  transition: transform 0.3s ease; 
-  transform-origin: top center; 
-  z-index: 2;
+.menu-slide__img-wrap {
+  display: inline-block;
   position: relative;
+  overflow: visible;
+  transition: transform 0.4s ease;
+  transform-origin: top center;
 }
 
 .menu-slide__sticker {
-  position: absolute;          
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease;
+  position: absolute;
   z-index: 3;
 }
-.menu-slide__img-wrap:hover .menu-slide__img {
-  transform: scale(1.1);
-  z-index: 10; 
+
+.menu-slide:hover .menu-slide__img-wrap {
+  transform: scale(1.45);
+}
+.menu-slide:hover .menu-slide__info {
+    transform: translateY(5rem);
 }
 
+.menu-slide:hover .menu-slide__name {
+    transform: scale(1);
+}
+
+.menu-slide__info,
+.menu-slide__name {
+    transition: transform 0.4s ease;
+}
