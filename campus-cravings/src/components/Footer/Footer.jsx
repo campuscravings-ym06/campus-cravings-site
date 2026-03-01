@@ -1,75 +1,85 @@
-import Link from "next/link"
-import './Footer.css'
+import Link from "next/link";
+import "./Footer.css";
 
 export default function Footer() {
-    return (
-        <footer data-background="black" data-w-id="54341c44-f81e-36ad-4d33-ecf225a4c746" className="footer">
+  const navLinkStyle = {
+    color: "white",
+    fontWeight: 800,
+    fontSize: "20px",
+    textDecoration: "none",
+    textTransform: "uppercase",
+    letterSpacing: "2px",
+  };
+
+  const bottomLinkStyle = {color: "white", textDecoration: "none"};
+
+  return (
+    <footer className="footer" style={{ backgroundColor: "#f53a30", padding: "20px", color: "white"}}>
       <div className="page-padding">
         <div className="w-layout-blockcontainer container w-container">
-          <div className="wrap footer-wrap">
-            <div className="footer-top"><a href="index.htm" data-logo="main-logo-link" aria-label="domore-logo"
-                id="w-node-_54341c44-f81e-36ad-4d33-ecf225a4c74b-25a4c746" className="logo in-footer w-nav-brand"><img
-                 alt="logo" src="/assets/images/logo_hero.png"
-                  loading="lazy" data-logo="main"/></a>
-              <ul id="w-node-_54341c44-f81e-36ad-4d33-ecf225a4c74d-25a4c746" role="list" className="footer__links">
-                <li><a href="about-us.html" className="nav__link in-footer w-inline-block">
-                    <p>about us</p>
-                  </a></li>
-                <li><a href="#" scroll="disable" data-w-id="54341c44-f81e-36ad-4d33-ecf225a4c75f"
-                    className="nav__link in-footer w-inline-block">
-                    <p>Delivery</p>
-                  </a></li>
-                <li id="w-node-_54341c44-f81e-36ad-4d33-ecf225a4c752-25a4c746"><a href="menu.html" aria-current="page"
-                    className="nav__link in-footer w-inline-block w--current">
-                    <p>Menu</p>
-                  </a></li>
-                <li></li>
-                <li id="w-node-_54341c44-f81e-36ad-4d33-ecf225a4c756-25a4c746"><a href="locations.html"
-                    className="nav__link in-footer w-inline-block">
-                    <p>Location</p>
-                  </a></li>
-              </ul>
-              <div className="footer-right">
-                <div className="footer-social-wrap">
-                  <div id="w-node-_54341c44-f81e-36ad-4d33-ecf225a4c762-25a4c746" className="social"><a
-                      href="https://www.instagram.com/campuscravings_queens/" target="_blank"
-                      className="social__link w-inline-block">
-                      <div className="socail__embed inst-icon w-embed"><svg width="18" height="18" viewBox="0 0 18 18"
-                          fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M13.4954 0H4.50458C2.0207 0 0 2.02129 0 4.50591V12.7336C0 15.2183 2.0207 17.2395 4.50458 17.2395H13.4954C15.9793 17.2395 18 15.2183 18 12.7336V4.50591C18 2.02129 15.9793 0 13.4954 0ZM1.58908 4.50591C1.58908 2.89804 2.89718 1.58954 4.50458 1.58954H13.4954C15.1028 1.58954 16.4109 2.89804 16.4109 4.50591V12.7336C16.4109 14.3415 15.1028 15.65 13.4954 15.65H4.50458C2.89718 15.65 1.58908 14.3415 1.58908 12.7336V4.50591Z"
-                            fill="#202024"></path>
-                          <path
-                            d="M9.00009 12.8102C11.3099 12.8102 13.1901 10.9305 13.1901 8.61899C13.1901 6.30748 11.3109 4.42773 9.00009 4.42773C6.68926 4.42773 4.81006 6.30748 4.81006 8.61899C4.81006 10.9305 6.68926 12.8102 9.00009 12.8102ZM9.00009 6.01829C10.4344 6.01829 11.601 7.18525 11.601 8.62001C11.601 10.0548 10.4344 11.2217 9.00009 11.2217C7.56575 11.2217 6.39913 10.0548 6.39913 8.62001C6.39913 7.18525 7.56575 6.01829 9.00009 6.01829Z"
-                            fill="#202024"></path>
-                          <path
-                            d="M13.5778 5.10451C14.1998 5.10451 14.7067 4.59842 14.7067 3.97523C14.7067 3.35204 14.2008 2.84595 13.5778 2.84595C12.9548 2.84595 12.4489 3.35204 12.4489 3.97523C12.4489 4.59842 12.9548 5.10451 13.5778 5.10451Z"
-                            fill="#202024"></path>
-                        </svg></div>
-                    
-                    </a></div>
+          <div style={{display: "flex", alignItems: "center", flexWrap: "wrap", gap: "20px"}}>
+            {/* Logo Section */}
+            <div style={{display: "flex", flexDirection: "column", alignItems: "flex-start", maxWidth: "200px"}}>
+              <Link href="/" className="w-nav-brand">
+                <img width="120" height="57" alt="Campus Cravings Logo" src="/assets/images/logo_hero.png" loading="lazy"/>
+              </Link>
+            </div>
+            <div style={{display: "flex", justifyContent: "center", flexDirection: "row", alignItems: "center", gap: "40px", textAlign: "center", flexGrow: 1, flexWrap: "wrap"}}>
+              <Link href="/about-us" style={navLinkStyle}>
+                About Us
+              </Link>
+              <Link href="/menu" style={navLinkStyle}>
+                Menu
+              </Link>
+              <Link href="/locations" style={navLinkStyle}>
+                Location
+              </Link>
+              <Link href="#" style={navLinkStyle}>
+                Delivery
+              </Link>
+            </div>
+
+            {/* Socials & Contact */}
+            <div style={{justifySelf: "end", display: "flex", flexDirection: "row", alignItems: "flex-start", gap: "25px"}}>
+              {/* Instagram Icon */}
+              <Link href="https://www.instagram.com/campuscravings_queens/" target="_blank" rel="noopener noreferrer" style={{display: "flex", alignItems: "center", justifyContent: "center", background: "white", width: "50px", height: "50px", borderRadius: "50%"}}>
+                <svg width="30"height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="black"/>
+                </svg>
+              </Link>
+              {/* Contact Email */}
+              <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                <div style={{fontSize: "14px", fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.5px"}}>
+                  Contact Us:
                 </div>
-                <div className="footer-contact-wrap">
-                  <p className="footer-contact-title">Сontact us:</p><a href="mailto:campuscravings0411@gmail.com"
-                    className="footer-contact-link-wrap w-inline-block"><img
-                      src="/assets/images/6735b9f37049694d96095db9_Mail.svg" loading="lazy" alt=""
-                      className="footer-contact-icon"/>
-                    <p className="footer-contact-link">campuscravings0411@gmail.com</p>
-                  </a>
-                </div>
+                <Link
+                  href="mailto:campuscravings0411@gmail.com"
+                  style={{display: "flex", alignItems: "center", gap: "5px", textDecoration: "none", color: "white"}}>
+                  <img src="/assets/images/6735b9f37049694d96095db9_Mail.svg" loading="lazy" width="24" alt="Email"/>
+                  <span style={{fontWeight: 800, fontSize: "16px", textTransform: "uppercase"}}>
+                    campuscravings0411@gmail.com
+                  </span>
+                </Link>
               </div>
             </div>
-            <div className="footer-bottom">
-              <div className="footer__divider"></div>
-              <Link href={'/terms'} className="text-secondary-14 color-beige">Terms of Service</Link>
-              <Link href="/privacy" className="text-secondary-14 color-beige" >Privacy Policy</Link>
-              <Link href="/cookies-policy" className="text-secondary-14 color-beige" >Cookies</Link>
-              <div id="w-node-_54341c44-f81e-36ad-4d33-ecf225a4c77b-25a4c746" className="text-secondary-14 color-beige">©
-                2026, CampusCravings All Rights Reserved.</div>
-            </div>
+          </div>
+
+          {/* Terms, Privacy, Copyright */}
+          <div style={{borderTop: "1px solid rgba(255,255,255,0.4)", paddingTop: "20px", marginTop: "20px", display: "flex", justifyContent: "center", alignItems: "center", flexWrap: "wrap", gap: "20px", fontSize: "13px", opacity: 0.9}}>
+            <Link href="/terms" style={bottomLinkStyle}>
+              Terms of Service
+            </Link>
+            <Link href="/privacy" style={bottomLinkStyle}>
+              Privacy Policy
+            </Link>
+            <Link href="/cookies-policy" style={bottomLinkStyle}>
+              Cookies
+            </Link>
+            <span style={{ opacity: 0.5 }}>|</span>
+            <span>© 2026 Campus Cravings. All Rights Reserved.</span>
           </div>
         </div>
       </div>
     </footer>
-    )
+  );
 }
