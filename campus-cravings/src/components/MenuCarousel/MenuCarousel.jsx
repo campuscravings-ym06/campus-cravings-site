@@ -6,8 +6,7 @@ import MenuItem from "../MenuItem/MenuItem"
 import "./MenuCarousel.css"
 import { Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/pagination'
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 
 export default function MenuCarousel() {
 
@@ -98,13 +97,13 @@ export default function MenuCarousel() {
                     })}
                 </Swiper> : 
                 <Swiper
-                modules={[Navigation, Pagination]}
+                modules={[Navigation]}
                     slidesPerView={1}
                     spaceBetween={0}
                     loop
                     pagination
                     onSlideChange={(swiper) => setSwiperIndex(swiper.activeIndex)}
-                    onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex); console.log(swiper.activeIndex)}}
+                    onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex)}}
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
@@ -113,7 +112,7 @@ export default function MenuCarousel() {
                     {dispItems.map(item => {
                         return (
                             <SwiperSlide key={item.name}>
-                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} sticker={item.sticker}/>
+                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} descTitle={item.descTitle} priceDesc={item.priceDesc} sticker={item.sticker}/>
                             </SwiperSlide>
                         )
                     })}
