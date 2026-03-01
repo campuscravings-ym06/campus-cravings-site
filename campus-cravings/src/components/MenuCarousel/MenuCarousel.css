@@ -30,3 +30,6 @@
         height: min-content !important;
     }
 }
+.tabs-menu__link {
+    transition: background-color 0.3s ease, color 0.2s ease, all 0.3s ease;
+}

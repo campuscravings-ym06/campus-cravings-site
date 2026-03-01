@@ -1,12 +1,13 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import 'swiper/css'
+import 'swiper/css/pagination'
+import { Navigation, Pagination } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import { menuItems } from "../../js/menuItems"
 import MenuItem from "../MenuItem/MenuItem"
 import "./MenuCarousel.css"
-import { Swiper, SwiperSlide} from 'swiper/react';
-import 'swiper/css';
-import { Navigation } from 'swiper/modules';
 
 export default function MenuCarousel() {
 
@@ -74,7 +75,7 @@ export default function MenuCarousel() {
                 </div>
             </div>
             
-            <div className="menu-items">
+            <div className="menu-items" key={curDisplay}>
                 {width > 600 ? 
                 <Swiper
                 modules={[Navigation]}
