@@ -1,8 +1,17 @@
-export default function MenuItem({name, image, price, desc="", sticker=""}) {
+export default function MenuItem({name, image, price, desc="", sticker="", isCenter=false, canRotate=false}) {
+    let curImgClass = "";
+    let curTextClass = "";
+    if (canRotate && isCenter) {
+        curImgClass = "img-center";
+        curTextClass = "swiper-text-center";
+    } else if (canRotate) {
+        curImgClass = "swiper-prevent-enlarge"
+        curTextClass = "swiper-prevent-enlarge"
+    }
 
     return (
         <div className="menu-slide">
-            <div className="menu-slide__img-wrap">
+            <div className={`menu-slide__img-wrap  ${curImgClass}` }>
                 
                 <img width="362" height="236" alt=""
                 src={`/assets/images/${image}`}
@@ -15,7 +24,7 @@ export default function MenuItem({name, image, price, desc="", sticker=""}) {
                                   src={`/assets/images/${sticker}`}
                                   loading="lazy" className="menu-slide__sticker"/>}
             </div>
-            <div className="menu-slide__info">
+            <div className={`menu-slide__info ${curTextClass}`}>
                 <h2 className="h6 menu-slide__name">{name}</h2>
                 <div className="spacer-8"></div>
                 <div className="menu-slide__rich-text w-richtext">
