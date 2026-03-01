@@ -92,7 +92,7 @@ export default function MenuCarousel() {
                     {dispItems.map((item,index) => {
                         return (
                             <SwiperSlide key={item.name}>
-                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} sticker={item.sticker} isCenter={index == swiperIndex + 1} canRotate={dispItems.length > 3}/>
+                                <MenuItem name={item.name} image={item.image} price={item.price} priceDesc={item.priceDesc} descTitle={item.descTitle} desc={item.desc} sticker={item.sticker} isCenter={index == swiperIndex + 1} canRotate={dispItems.length > 3}/>
                             </SwiperSlide>
                         )
                     })}

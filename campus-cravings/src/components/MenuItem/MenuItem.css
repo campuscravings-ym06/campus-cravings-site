@@ -1,0 +1,17 @@
+.menu-slide__rich-text {
+    font-family: 'GTPressuraMono' !important;
+    font-weight: 400;
+}
+
+.menu-slide__rich-text-2 {
+    color: var(--color--secondary-red);
+}
+
+.menu-slide__info {
+    text-align: center;
+    max-width: 60%;
+}
+
+.menu-slide__rich-text-2 .menu-slide__price-desc {
+    color: var(--color--primary-black)
+}

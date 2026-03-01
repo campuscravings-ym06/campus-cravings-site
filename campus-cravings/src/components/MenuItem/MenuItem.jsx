@@ -1,4 +1,6 @@
-export default function MenuItem({name, image, price, desc="", sticker="", isCenter=false, canRotate=false}) {
+import "./MenuItem.css"
+
+export default function MenuItem({name, image, price, priceDesc="", descTitle="", desc="", sticker="", isCenter=false, canRotate=false}) {
     let curImgClass = "";
     let curTextClass = "";
     if (canRotate && isCenter) {
@@ -28,11 +30,11 @@ export default function MenuItem({name, image, price, desc="", sticker="", isCen
                 <h2 className="h6 menu-slide__name">{name}</h2>
                 <div className="spacer-8"></div>
                 <div className="menu-slide__rich-text w-richtext">
-                    {desc}
+                    <strong>{descTitle}{descTitle && ":"}</strong>{desc}
                 </div>
                 <div className="spacer-12"></div>
                 <div className="menu-slide__rich-text-2 w-richtext">
-                    <p> {price}</p>
+                    <p><strong className="menu-slide__price-desc">{priceDesc}</strong> {price}</p>
                 </div>
             </div>
         </div>
