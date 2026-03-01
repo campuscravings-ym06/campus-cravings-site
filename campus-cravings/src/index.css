@@ -6051,11 +6051,12 @@ em {
 
     .founders-slide__img-wrap.v2 {
         z-index: 0;
-        max-width: none;
+        max-width: 100vw;
         height: 14.63rem;
         position: relative;
         top: 0;
-        left: 0
+        left: 0;
+        overflow: hidden;
     }
 
     .founders-slide__img-wrap.v1 {

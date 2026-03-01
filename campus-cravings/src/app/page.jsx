@@ -43,7 +43,7 @@ export default function About() {
                                 className="founders-slide__img v2"/><img src="/assets/images/Kitchen.png"
                                 sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 749px" width="749" height="322"
                                 alt=""
-                                srcSet="/assets/images/67935dc4375e4b96e2fee675_Frame%202087324950-p-500.webp 500w, /assets/images/67935dc4375e4b96e2fee675_Frame%202087324950-p-800.webp 800w, /assets/images/Kitchen.png 1060w"
+                                srcSet="/assets/images/Kitchen.png 500w, /assets/images/Kitchen.png 800w, /assets/images/Kitchen.png 1060w"
                                 className="founders-slide__img v2 mob"></img>
                             </div>
                             <h2 data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db" className="h2 founders__h2 v2">See<br/>our
