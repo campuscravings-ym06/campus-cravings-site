@@ -24,3 +24,9 @@
     width: 80vw !important;
     height: 60vh !important;
 }
+
+@media screen and (max-width: 479px) {
+    .swiper-wrapper {
+        height: min-content !important;
+    }
+}
