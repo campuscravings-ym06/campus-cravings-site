@@ -17,6 +17,7 @@ export default function MenuCarousel() {
     const [swiperIndex, setSwiperIndex] = useState(0);
 
     const [width, setWidth] = useState(null);
+    console.log(swiperIndex)
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
@@ -88,10 +89,10 @@ export default function MenuCarousel() {
                         prevEl: '.swiper-button-prev',
                     }}
                 >
-                    {dispItems.map(item => {
+                    {dispItems.map((item,index) => {
                         return (
                             <SwiperSlide key={item.name}>
-                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} sticker={item.sticker}/>
+                                <MenuItem name={item.name} image={item.image} price={item.price} priceDesc={item.priceDesc} descTitle={item.descTitle} desc={item.desc} sticker={item.sticker} isCenter={index == swiperIndex + 1} canRotate={dispItems.length > 3}/>
                             </SwiperSlide>
                         )
                     })}
