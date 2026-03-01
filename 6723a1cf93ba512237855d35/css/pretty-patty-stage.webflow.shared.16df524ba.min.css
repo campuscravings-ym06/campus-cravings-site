@@ -6221,8 +6221,8 @@ em {
     }
 
     .tabs {
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         margin-top: 2.55rem;
         padding-left: 1rem;
         padding-right: 1rem

@@ -510,6 +510,18 @@
 
         @media (max-width: 479px) {
           .tabs-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+            overflow: visible;
+            width: auto;
+            margin: 0 1rem 0.85rem;
+            max-width: none;
+            border-right-style: solid !important;
+            border-top-right-radius: 1rem !important;
+            border-bottom-right-radius: 1rem !important;
+            border-radius: 1rem;
             -ms-overflow-style: none;
             scrollbar-width: none;
           }
@@ -517,6 +529,21 @@
           .tabs-menu::-webkit-scrollbar {
             width: 0;
             height: 0;
+          }
+
+          .tabs-menu__link {
+            margin-right: 0 !important;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            justify-content: flex-start;
+          }
+
+          .tabs-menu__link:last-child {
+            margin-bottom: 0;
+          }
+
+          .tabs-menu__link.w--current:not(:last-child) {
+            margin-right: 0 !important;
           }
         }
       </style>
