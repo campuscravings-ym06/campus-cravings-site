@@ -1,0 +1,31 @@
+.menu-slide__rich-text {
+    font-family: 'GTPressuraMono' !important;
+    font-weight: 400;
+    line-height: 129%;
+}
+
+.menu-slide__rich-text-2 {
+    color: var(--color--secondary-red);
+}
+
+.menu-slide__info {
+    text-align: center;
+    max-width: 60%;
+}
+
+.menu-slide__rich-text-2 .menu-slide__price-desc {
+    color: var(--color--primary-black)
+}
+
+@media screen and (max-width: 479px) {
+    .menu-slide__rich-text {
+        letter-spacing: .3px;
+        font-size: .94rem;
+        
+    }
+
+    .menu-slide__info {
+        max-width: 90%;
+        padding: 0% !important;
+    }
+}

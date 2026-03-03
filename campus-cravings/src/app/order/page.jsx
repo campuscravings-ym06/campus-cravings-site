@@ -1,3 +1,4 @@
+import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import "./page.css"
 
 export default function Order () {
@@ -18,10 +19,10 @@ export default function Order () {
                     <div role="listitem" className="location-item w-dyn-item">
                       <div className="location-slide">
                         <div id="location-1"
-                          className="swiper location-slider__track location-slider__in-location w-dyn-list">
+                          className=" location-slider__track location-slider__in-location w-dyn-list">
                           <div role="list" className="swiper-wrapper location-slider__list w-dyn-items">
                             <div role="listitem"
-                              className="swiper-slide location-slider__slide w-dyn-item w-dyn-repeater-item">
+                              className=" location-slider__slide w-dyn-item w-dyn-repeater-item">
                               <div className="location-slide__img-wrap location-height">
                                 <img
                                   src="/assets/images/Location (1).png"
@@ -83,7 +84,7 @@ export default function Order () {
             </div>
           </div>
         <div className="banner p-locations-banner">
-          <div className="banner__image"></div>
+          <ScrollingCs/>
         </div>
       </section>
     </main>

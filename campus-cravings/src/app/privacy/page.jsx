@@ -1,4 +1,11 @@
+import ContentsTable from "../../components/ContentsTable/ContentsTable";
+import ScrollingCs from "../../components/ScrollingCs/ScrollingCs";
+
 export default function Privacy() {
+
+    const contents = ["Information We Collect", "Third-Party Services", "How We Use Your Data",
+        "Data Retention", "Your Rights", "Updates To This Policy"
+    ];
 
     return (
         <div className="main-wrapper">
@@ -9,33 +16,7 @@ export default function Privacy() {
                         <div data-sync-scroll-items="" className="wrap policy__wrap">
                             <div className="anchor-links-wrap">
                                 <h1 className="anchor__title">Privacy Policy</h1>
-                                <div id="anchor-links" className="anchor-links">
-                                    <p className="anchor__subtitle">Table of Contents</p>
-                                    <a data-link="theme-1" href="#" className="anchor-link w-inline-block">
-                                        <p className="anchor-counter">1.</p>
-                                        <p className="anchor-link-text">Information We Collect</p>
-                                    </a>
-                                    <a data-link="theme-2" href="#" className="anchor-link w-inline-block">
-                                        <p className="anchor-counter">2.</p>
-                                        <p className="anchor-link-text">Third-Party Services</p>
-                                    </a>
-                                    <a data-link="theme-3" href="#" className="anchor-link w-inline-block">
-                                        <p className="anchor-counter">3.</p>
-                                        <p className="anchor-link-text">How We Use Your Data</p>
-                                    </a>
-                                    <a data-link="theme-4" href="#" className="anchor-link w-inline-block">
-                                        <p className="anchor-counter">4.</p>
-                                        <p className="anchor-link-text">Data Retention</p>
-                                    </a>
-                                    <a data-link="theme-5" href="#" className="anchor-link w-inline-block">
-                                        <p className="anchor-counter">5.</p>
-                                        <p className="anchor-link-text">Your Rights</p>
-                                    </a>
-                                    <a data-link="theme-6" href="#" className="anchor-link w-inline-block">
-                                        <p className="anchor-counter">6.</p>
-                                        <p className="anchor-link-text">Updates to this Policy</p>
-                                    </a>
-                                </div>
+                                <ContentsTable contents={contents}/>
                             </div>
                             <div className="policy__right">
                                 <div className="policy__box">
@@ -77,7 +58,7 @@ export default function Privacy() {
                     </div>
                 </div>
                 <div className="banner p-locations-banner">
-                    <div className="banner__image"></div>
+                    <ScrollingCs/>
                 </div>
             </section>
         </div>

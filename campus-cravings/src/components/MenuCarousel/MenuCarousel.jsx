@@ -1,13 +1,13 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import 'swiper/css'
+import 'swiper/css/pagination'
+import { Navigation, Pagination } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import { menuItems } from "../../js/menuItems"
 import MenuItem from "../MenuItem/MenuItem"
 import "./MenuCarousel.css"
-import { Swiper, SwiperSlide} from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination'
-import { Navigation, Pagination } from 'swiper/modules';
 
 export default function MenuCarousel() {
 
@@ -20,6 +20,7 @@ export default function MenuCarousel() {
     const nextRef = useRef(null);
 
     const [width, setWidth] = useState(null);
+    console.log(swiperIndex)
 
     const MOBILE_WIDTH = 500;
     const MOBILE_MAX_PROD = 1;
@@ -78,7 +79,7 @@ export default function MenuCarousel() {
                 </div>
             </div>
             
-            <div className="menu-items">
+            <div className="menu-items" key={curDisplay}>
                 {width > 600 ? 
                 <Swiper
                 modules={[Navigation]}
@@ -96,10 +97,10 @@ export default function MenuCarousel() {
                         prevEl: '.swiper-button-prev',
                     }}
                 >
-                    {dispItems.map(item => {
+                    {dispItems.map((item,index) => {
                         return (
                             <SwiperSlide key={item.name}>
-                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} sticker={item.sticker}/>
+                                <MenuItem name={item.name} image={item.image} price={item.price} priceDesc={item.priceDesc} descTitle={item.descTitle} desc={item.desc} sticker={item.sticker} isCenter={index == swiperIndex + 1} canRotate={dispItems.length > 3}/>
                             </SwiperSlide>
                         )
                     })}
@@ -111,7 +112,7 @@ export default function MenuCarousel() {
                     loop
                     pagination
                     onSlideChange={(swiper) => setSwiperIndex(swiper.realIndex)}
-                    onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex); console.log(swiper.activeIndex)}}
+                    onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex)}}
                     onBeforeInit={(swiper) => {
                         swiper.params.navigation.prevEl = prevRef.current;
                         swiper.params.navigation.nextEl = nextRef.current;
@@ -124,7 +125,7 @@ export default function MenuCarousel() {
                     {dispItems.map(item => {
                         return (
                             <SwiperSlide key={item.name}>
-                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} sticker={item.sticker}/>
+                                <MenuItem name={item.name} image={item.image} price={item.price} desc={item.desc} descTitle={item.descTitle} priceDesc={item.priceDesc} sticker={item.sticker}/>
                             </SwiperSlide>
                         )
                     })}

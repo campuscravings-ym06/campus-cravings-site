@@ -1,4 +1,5 @@
 import MenuCarousel from '../../components/MenuCarousel/MenuCarousel'
+import ScrollingCs from '../../components/ScrollingCs/ScrollingCs'
 import './page.css'
 
 export default function Menu() {
@@ -19,13 +20,12 @@ export default function Menu() {
               <div data-w-id="af72a4ba-ec34-3734-ffda-f46a65c35d7c" style={{opacity : 0}} data-current="Sides"
                 data-easing="ease" data-duration-in="300" data-duration-out="100" className="tabs w-tabs">
                 <MenuCarousel/>
-            
                       </div>
                       </div>
                   </div>
                   </div>
         <div className="banner menu-banner">
-          <div className="banner__image"></div>
+          <ScrollingCs/>
         </div>
       </section>
     </main>

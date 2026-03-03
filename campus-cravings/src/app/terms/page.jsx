@@ -1,4 +1,12 @@
+import ContentsTable from "../../components/ContentsTable/ContentsTable"
+import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
+
 export default function Terms() {
+
+    const contents = ["General Information", "Ordering And Delivery", "Online Merchandise Sales",
+        "Loyalty Program", "Refund And Complaints", "Intellectual Property", "Limitation Of Liability",
+        "Governing Law"
+    ]
 
     return (
         <div><div className="main-wrapper">
@@ -9,35 +17,7 @@ export default function Terms() {
                             <div data-sync-scroll-items="" className="wrap policy__wrap">
                                 <div className="anchor-links-wrap">
                                     <h1 className="anchor__title">Terms &amp; <br/>Conditions</h1>
-                                    <div id="anchor-links" className="anchor-links">
-                                        <p className="anchor__subtitle">Table of Contents</p>
-                                        <a data-link="theme-1" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">1.</p>
-                                            <p className="anchor-link-text">General Information</p>
-                                        </a>
-                                        <a data-link="theme-2" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">2.</p><p className="anchor-link-text">Ordering and Delivery</p>
-                                        </a>
-                                        <a data-link="theme-3" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">3.</p><p className="anchor-link-text">Online Merchandise Sales</p>
-                                        </a>
-                                        <a data-link="theme-4" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">4.</p><p className="anchor-link-text">Loyalty Program</p>
-                                        </a>
-                                        <a data-link="theme-5" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">5.</p>
-                                            <p className="anchor-link-text">Refund and Complaints</p>
-                                        </a>
-                                        <a data-link="theme-6" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">6.</p><p className="anchor-link-text">Intellectual Property</p>
-                                        </a>
-                                        <a data-link="theme-7" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">7.</p><p className="anchor-link-text">Limitation of Liability</p>
-                                        </a>
-                                        <a data-link="theme-8" href="#" className="anchor-link w-inline-block">
-                                            <p className="anchor-counter">8.</p><p className="anchor-link-text">Governing Law</p>
-                                        </a>
-                                    </div>
+                                    <ContentsTable contents={contents} />
                                 </div>
                                 <div className="policy__right">
                                     <div className="policy__box">
@@ -81,7 +61,7 @@ export default function Terms() {
                         </div>
                     </div>
                     <div className="banner p-locations-banner">
-                        <div className="banner__image"></div>
+                        <ScrollingCs/>
                     </div>
                 </section>
             </div>

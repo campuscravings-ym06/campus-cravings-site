@@ -8,7 +8,7 @@
     display: flex; 
     flex-direction: row;
     max-width: 90vw;
-    max-height: 400px;
+    max-height: 800px;
     overflow: hidden;
 }
 
@@ -18,4 +18,18 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.swiper-wrapper {
+    width: 80vw !important;
+    height: 60vh !important;
+}
+
+@media screen and (max-width: 479px) {
+    .swiper-wrapper {
+        height: min-content !important;
+    }
+}
+.tabs-menu__link {
+    transition: background-color 0.3s ease, color 0.2s ease, all 0.3s ease;
 }

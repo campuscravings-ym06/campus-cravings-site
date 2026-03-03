@@ -302,64 +302,31 @@ html.lenis,
         }
 
         @media (min-width: 480px) {
-          .menu-slider__slide.swiper-slide-next .menu-slide__img-wrap {
-            transform: scale(1.75);
+          .swiper-prevent-enlarge {
+            transform: none !important;
+          }
+          .menu-slide:hover .menu-slide__img-wrap {
+            transform: scale(1.65);
+          }
+          .menu-slide:hover .menu-slide__info {
+              transform: translateY(5rem);
           }
 
-          .menu-slider__slide.swiper-slide-next .menu-slide__sticker {
-            transform: scale(0.8) translate(25%, 0%);
+           .img-center {
+            transform: scale(1.65);
           }
 
-          .menu-slider__slide.swiper-slide-next .menu-slide__info {
-            transform: scale(1) translateY(4rem);
+          .swiper-text-center {
+            transform: translateY(5rem);
           }
 
-          .menu-slider__slide.swiper-slide-next .menu-slide__name {
-            transform: scale(1.2);
+          .menu-slide:hover .menu-slide__name {
+              transform: scale(1);
           }
 
-
-
-          .menu-slider__slide.slide-hover .menu-slide__img-wrap {
-            transform: scale(1);
-          }
-
-          .menu-slider__slide.slide-hover .menu-slide__sticker {
-            transform: scale(1) translate(0%, 0%);
-          }
-
-          .menu-slider__slide.slide-hover .menu-slide__info {
-            transform: scale(1) translateY(0);
-          }
-
-          .menu-slider__slide.slide-hover .menu-slide__name {
-            transform: scale(1);
-          }
-
-
-          .menu-slider__slide.slide-hover:hover .menu-slide__img-wrap {
-            transform: scale(1.75);
-          }
-
-          .menu-slider__slide.slide-hover:hover .menu-slide__sticker {
-            transform: scale(0.8) translate(25%, 0%);
-          }
-
-          .menu-slider__slide.slide-hover:hover .menu-slide__info {
-            transform: scale(1) translateY(4rem);
-          }
-
-          .menu-slider__slide.slide-hover:hover .menu-slide__name {
-            transform: scale(1.2);
-          }
-
-          .swiper-wrapper.slides-center {
-            justify-content: center;
-          }
-
-          .swiper-wrapper.slides-center> :last-child {
-            margin-right: 0 !important;
-          }
+          .menu-slide__info,
+          .menu-slide__name {
+              transition: transform 0.4s ease;
         }
 
         @media (max-height: 700px) and (min-width: 991px) {
@@ -384,4 +351,27 @@ html.lenis,
             height: 0;
           }
         }
-  
+
+
+/*Changed the surrouding container size to fit the enlarged pic*/
+.swiper-slide {
+  overflow: visible !important;
+  height: 550px !important;
+  padding-top: 100px;
+}
+
+.menu-slide__img-wrap {
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  transition: transform 0.4s ease;
+  transform-origin: center center;
+}
+
+.menu-slide__sticker {
+  position: absolute;
+  z-index: 3;
+}
+
+
+}
