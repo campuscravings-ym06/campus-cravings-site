@@ -16,10 +16,14 @@ export default function MenuCarousel() {
     const [swiperInstance, setSwiperInstance] = useState(null);
     const [swiperIndex, setSwiperIndex] = useState(0);
 
-    const prevRef = useRef(null);  // ADDED
-    const nextRef = useRef(null);  // ADDED
+    const prevRef = useRef(null);
+    const nextRef = useRef(null);
 
     const [width, setWidth] = useState(null);
+
+    const MOBILE_WIDTH = 500;
+    const MOBILE_MAX_PROD = 1;
+    const DESKTOP_MAX_PROD = 3;
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
@@ -78,12 +82,12 @@ export default function MenuCarousel() {
                 {width > 600 ? 
                 <Swiper
                 modules={[Navigation]}
-                    slidesPerView={Math.min(3, dispItems.length)}
+                    slidesPerView={Math.min(DESKTOP_MAX_PROD, dispItems.length)}
                     spaceBetween={0}
-                    loop={dispItems.length > Math.min(3, dispItems.length)}
+                    loop={dispItems.length > Math.min(DESKTOP_MAX_PROD, dispItems.length)}
                     onSlideChange={(swiper) => setSwiperIndex(swiper.realIndex)}
-                    onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex); console.log(swiper.activeIndex)}}
-                    onBeforeInit={(swiper) => {  // ADDED
+                    onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex);}}
+                    onBeforeInit={(swiper) => {
                         swiper.params.navigation.prevEl = prevRef.current;
                         swiper.params.navigation.nextEl = nextRef.current;
                     }}
@@ -102,13 +106,13 @@ export default function MenuCarousel() {
                 </Swiper> : 
                 <Swiper
                 modules={[Navigation, Pagination]}
-                    slidesPerView={1}
+                    slidesPerView={MOBILE_MAX_PROD}
                     spaceBetween={0}
                     loop
                     pagination
                     onSlideChange={(swiper) => setSwiperIndex(swiper.realIndex)}
                     onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex); console.log(swiper.activeIndex)}}
-                    onBeforeInit={(swiper) => {  // ADDED
+                    onBeforeInit={(swiper) => {
                         swiper.params.navigation.prevEl = prevRef.current;
                         swiper.params.navigation.nextEl = nextRef.current;
                     }}
@@ -130,10 +134,10 @@ export default function MenuCarousel() {
             
             </div>
         </div>
-        { dispItems.length > 3 &&
+        { dispItems.length > DESKTOP_MAX_PROD &&
             <div>
                 <div className="slider-arrows menu-arrows">
-                    <button ref={prevRef} type="button" data-slider-btn="prev" className="slider-arrow swiper-button-prev">  {/* ADDED ref */}
+                    <button ref={prevRef} type="button" data-slider-btn="prev" className="slider-arrow swiper-button-prev">
                         <div className="slider-arrow__embed w-embed">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M19 12H5" stroke="currentcolor" strokeWidth="1.5" strokeLinecap="round"strokeLinejoin="round"></path>
@@ -141,7 +145,7 @@ export default function MenuCarousel() {
                             </svg>
                         </div>
                     </button>
-                    <button ref={nextRef} type="button" data-slider-btn="next" className="slider-arrow swiper-button-next">  {/* ADDED ref */}
+                    <button ref={nextRef} type="button" data-slider-btn="next" className="slider-arrow swiper-button-next">
                         <div className="slider-arrow__embed w-embed">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M5 12H19" stroke="currentcolor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -153,7 +157,7 @@ export default function MenuCarousel() {
                 
             </div>
             }
-            {((dispItems.length > 3 && width > 600) || (dispItems.length > 1 && width <= 600)) && (
+            {((dispItems.length > DESKTOP_MAX_PROD && width > MOBILE_WIDTH) || (dispItems.length > MOBILE_MAX_PROD && width <= MOBILE_WIDTH)) && (
                 <>
                 <div className="swiper-pagination menu-slider__pag"></div>
                 <div className="menu-slider__fraction">{swiperIndex + 1} of {dispItems.length}</div>
