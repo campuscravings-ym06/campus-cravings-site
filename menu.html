@@ -1169,13 +1169,13 @@
       $('[scroll=disable]').on('click', function () {
         var oldWidth = $body.innerWidth();
         scrollPosition = window.pageYOffset;
-        $body.css('overflow', 'hidden');
+        lenis.stop()
         $body.css('width', '100%');
 
       });
       $('[scroll=enable]').on('click', function () {
         if ($body.css('overflow') != 'hidden') { scrollPosition = window.pageYOffset; }
-        $body.css('overflow', '');
+        lenis.start()
         $body.css('position', '');
         $body.css('top', '');
         $body.css('width', '100%');
@@ -1186,13 +1186,13 @@
         if ($body.css('overflow') != 'hidden') {
           var oldWidth = $body.innerWidth();
           scrollPosition = window.pageYOffset;
-          $body.css('overflow', 'hidden');
+          lenis.stop()
           $navContainer.addClass('open');
           $body.css('width', '100%');
           $(window).scrollTop(scrollPosition - 1);
 
         } else {
-          $body.css('overflow', '');
+          lenis.start()
           $body.css('position', '');
           $body.css('top', '');
           $navContainer.removeClass('open');
@@ -1274,7 +1274,7 @@
           slide.setAttribute('data-original', 'true');
 
         });
-        if (numSlides < 3) {
+        if (numSlides < 4) {
           swiperWrapper.classList.add('slides-center');
         }
 
@@ -1359,8 +1359,6 @@
   </script>
 
   <script src="js/webflow.js"></script>
-
-  <script src="npm/swiper%4011/swiper-bundle.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // example: init a slider with id #menu-slider if it exists on this page
@@ -1386,7 +1384,6 @@
   <!-- jQuery required by Webflow's tabs -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Your exported Webflow runtime -->
-  <script src="js/webflow.js"></script> <!-- adjust path if different -->
 
 
 

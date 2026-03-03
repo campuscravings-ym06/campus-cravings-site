@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { menuItems } from "../../js/menuItems"
 import MenuItem from "../MenuItem/MenuItem"
 import "./MenuCarousel.css"
@@ -16,14 +16,14 @@ export default function MenuCarousel() {
     const [swiperInstance, setSwiperInstance] = useState(null);
     const [swiperIndex, setSwiperIndex] = useState(0);
 
+    const prevRef = useRef(null);  // ADDED
+    const nextRef = useRef(null);  // ADDED
+
     const [width, setWidth] = useState(null);
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
-
-    // Set initial size
     handleResize();
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -31,18 +31,18 @@ export default function MenuCarousel() {
 
     useEffect(() => {
         setDispItems(menuItems[curDisplay]);
-        // Optional: Reset to first slide when category changes
         swiperInstance?.slideTo(0);
     }, [curDisplay, swiperInstance])
 
     useEffect(() => {
-    if (dispItems.length > 3) {
-        swiperInstance.params.navigation.prevEl = '.swiper-button-prev';
-        swiperInstance.params.navigation.nextEl = '.swiper-button-next';
-        swiperInstance.navigation.init();
-        swiperInstance.navigation.update();
-    }
-}, [dispItems]);
+        if (swiperInstance && prevRef.current && nextRef.current) {
+            swiperInstance.params.navigation.prevEl = prevRef.current;
+            swiperInstance.params.navigation.nextEl = nextRef.current;
+            swiperInstance.navigation.destroy();
+            swiperInstance.navigation.init();
+            swiperInstance.navigation.update();
+        }
+    }, [dispItems, swiperInstance]);
 
     return (
         <div>
@@ -80,9 +80,13 @@ export default function MenuCarousel() {
                 modules={[Navigation]}
                     slidesPerView={Math.min(3, dispItems.length)}
                     spaceBetween={0}
-                    loop={dispItems.length > 3}
-                    onSlideChange={(swiper) => setSwiperIndex(swiper.activeIndex)}
+                    loop={dispItems.length > Math.min(3, dispItems.length)}
+                    onSlideChange={(swiper) => setSwiperIndex(swiper.realIndex)}
                     onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex); console.log(swiper.activeIndex)}}
+                    onBeforeInit={(swiper) => {  // ADDED
+                        swiper.params.navigation.prevEl = prevRef.current;
+                        swiper.params.navigation.nextEl = nextRef.current;
+                    }}
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
@@ -102,8 +106,12 @@ export default function MenuCarousel() {
                     spaceBetween={0}
                     loop
                     pagination
-                    onSlideChange={(swiper) => setSwiperIndex(swiper.activeIndex)}
+                    onSlideChange={(swiper) => setSwiperIndex(swiper.realIndex)}
                     onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex); console.log(swiper.activeIndex)}}
+                    onBeforeInit={(swiper) => {  // ADDED
+                        swiper.params.navigation.prevEl = prevRef.current;
+                        swiper.params.navigation.nextEl = nextRef.current;
+                    }}
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
@@ -125,7 +133,7 @@ export default function MenuCarousel() {
         { dispItems.length > 3 &&
             <div>
                 <div className="slider-arrows menu-arrows">
-                    <button type="button" data-slider-btn="prev" className="slider-arrow swiper-button-prev">
+                    <button ref={prevRef} type="button" data-slider-btn="prev" className="slider-arrow swiper-button-prev">  {/* ADDED ref */}
                         <div className="slider-arrow__embed w-embed">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M19 12H5" stroke="currentcolor" strokeWidth="1.5" strokeLinecap="round"strokeLinejoin="round"></path>
@@ -133,7 +141,7 @@ export default function MenuCarousel() {
                             </svg>
                         </div>
                     </button>
-                    <button type="button" data-slider-btn="next" className="slider-arrow swiper-button-next">
+                    <button ref={nextRef} type="button" data-slider-btn="next" className="slider-arrow swiper-button-next">  {/* ADDED ref */}
                         <div className="slider-arrow__embed w-embed">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M5 12H19" stroke="currentcolor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
