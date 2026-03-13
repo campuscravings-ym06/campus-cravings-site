@@ -1,27 +1,143 @@
+ "use client"
+
+import { useSearchParams } from "next/navigation"
+import { useEffect, useMemo, useState } from "react"
 import DeliveryItem from "../../components/DeliveryItem/DeliveryItem"
 import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import { menuItems } from "../../js/menuItems"
 import "./page.css"
 
-export default function Delivery() {
+function getNumberPrice(price) {
+    if (typeof price === "number") {
+        return price
+    }
 
+    const normalized = Number.parseFloat(String(price).replace(/[^\d.]/g, ""))
+    return Number.isNaN(normalized) ? 0 : normalized
+}
+
+export default function Delivery() {
+    const searchParams = useSearchParams()
+    const [cartItems, setCartItems] = useState([])
+    const [isCartOpen, setIsCartOpen] = useState(false)
+
+    useEffect(() => {
+        const cartAction = searchParams.get("cart")
+
+        if (cartAction === "open") {
+            setIsCartOpen(true)
+        }
+        if (cartAction === "toggle") {
+            setIsCartOpen((prev) => !prev)
+        }
+    }, [searchParams])
+
+    const addToCart = (item) => {
+        setCartItems((prev) => {
+            const existing = prev.find((cartItem) => cartItem.name === item.name)
+
+            if (existing) {
+                return prev.map((cartItem) =>
+                    cartItem.name === item.name
+                        ? { ...cartItem, quantity: cartItem.quantity + 1 }
+                        : cartItem
+                )
+            }
+
+            return [...prev, { ...item, quantity: 1 }]
+        })
+
+        setIsCartOpen(true)
+    }
+
+    const updateQuantity = (name, amount) => {
+        setCartItems((prev) =>
+            prev
+                .map((item) =>
+                    item.name === name ? { ...item, quantity: item.quantity + amount } : item
+                )
+                .filter((item) => item.quantity > 0)
+        )
+    }
+
+    const cartTotal = useMemo(() => {
+        return cartItems.reduce((total, item) => {
+            return total + getNumberPrice(item.price) * item.quantity
+        }, 0)
+    }, [cartItems])
 
     return (
-        <div>
-            {Object.entries(menuItems).map(([category, items]) => (
-                <div key={category}>
-                    <h2>{category}</h2>
-                    <div className="delivery-row">
-                        {items.map(item => (
-                            <DeliveryItem key={item.name} name={item.name} image={item.image} price={item.price}></DeliveryItem>
-                        ))}
-                    </div>
+        <div className="delivery-page">
+            <div className="delivery-content">
+                {Object.entries(menuItems).map(([category, items]) => (
+                    <section key={category} className="delivery-category">
+                        <h2>{category}</h2>
+                        <div className="delivery-row">
+                            {items.map((item) => (
+                                <DeliveryItem
+                                    key={item.name}
+                                    name={item.name}
+                                    image={item.image}
+                                    price={item.price}
+                                    onAdd={() => addToCart(item)}
+                                />
+                            ))}
+                        </div>
+                    </section>
+                ))}
+                <div className="c-scroll">
+                    <ScrollingCs />
                 </div>
-            ))}
-            <div  className="c-scroll">
-                <ScrollingCs/>
             </div>
-            
+
+            <div
+                className={`cart-backdrop ${isCartOpen ? "is-open" : ""}`}
+                onClick={() => setIsCartOpen(false)}
+            />
+
+            <aside className={`cart-drawer ${isCartOpen ? "is-open" : ""}`}>
+                <div className="cart-header">
+                    <h3>Your Order</h3>
+                    <button
+                        type="button"
+                        className="cart-close"
+                        onClick={() => setIsCartOpen(false)}
+                        aria-label="Close cart"
+                    >
+                        x
+                    </button>
+                </div>
+
+                {cartItems.length === 0 ? (
+                    <p className="cart-empty">Select an item to add it to your cart.</p>
+                ) : (
+                    <>
+                        <div className="cart-list">
+                            {cartItems.map((item) => (
+                                <div key={item.name} className="cart-item">
+                                    <div>
+                                        <div className="cart-item-name">{item.name}</div>
+                                        <div className="cart-item-price">{item.price}</div>
+                                    </div>
+                                    <div className="qty-controls">
+                                        <button type="button" onClick={() => updateQuantity(item.name, -1)}>-</button>
+                                        <span>{item.quantity}</span>
+                                        <button type="button" onClick={() => updateQuantity(item.name, 1)}>+</button>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="cart-footer">
+                            <div className="cart-total-row">
+                                <span>Total</span>
+                                <strong>${cartTotal.toFixed(2)}</strong>
+                            </div>
+                            <button type="button" className="checkout-btn">Checkout</button>
+                        </div>
+                    </>
+                )}
+            </aside>
         </div>
     )
 }
