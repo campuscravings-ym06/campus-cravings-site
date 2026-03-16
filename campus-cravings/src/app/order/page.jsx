@@ -1,7 +1,13 @@
+"use client";
+
+import { useState } from "react";
+import Script from "next/script"
 import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
+import DeliveryLocation from "../../components/DeliveryLocation/DeliveryLocation"
 import "./page.css"
 
 export default function Order () {
+  const [mapsReady, setMapsReady] = useState(false);
     return (
         <main className="main-wrapper">
       <section data-background="white" className="section p-locations">
@@ -86,6 +92,13 @@ export default function Order () {
         <div className="banner p-locations-banner">
           <ScrollingCs/>
         </div>
+        <Script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvTyb6UeLbrS43kFn_r7hxnuFFQc3HEOY&libraries=places&language=en&region=CA"
+        strategy="afterInteractive"
+        onLoad={() => setMapsReady(true)}
+        />
+
+        {mapsReady && <DeliveryLocation />}
       </section>
     </main>
     )
