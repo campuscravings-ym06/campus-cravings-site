@@ -508,6 +508,80 @@
           margin-right: 1.25rem;
         }
 
+        @media (min-width: 480px) {
+          .section.menu {
+            padding-top: 8rem !important;
+          }
+          .page-padding.in-menu {
+            padding-top: 0 !important;
+          }
+          .in-popular {
+            max-width: none !important;
+            padding-left: 2rem !important;
+            padding-right: 2rem !important;
+            margin-top: 0 !important;
+          }
+          .menu-wrap {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 4rem;
+            padding-top: 2rem !important;
+            margin-top: 0 !important;
+          }
+          .menu__heading {
+            grid-column: 2;
+            margin-bottom: 2rem !important;
+            margin-top: 0 !important;
+          }
+          .tabs {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 4rem;
+            align-items: flex-start;
+            margin-top: 0 !important;
+          }
+          .tabs-menu {
+            grid-column: 1;
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            position: sticky;
+            top: 120px; 
+            z-index: 100;
+            background-color: var(--color--primary-beige); 
+            padding: 1.5rem;
+            border: 1px solid rgba(32, 32, 36, 0.2);
+            border-radius: 2.5rem;
+          }
+          .tabs-content {
+            grid-column: 2;
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+            min-width: 0;
+          }
+          .tabs-menu__link {
+            width: 100%;
+            justify-content: flex-start;
+            margin-right: 0 !important;
+            margin-bottom: 0.75rem;
+            background-color: transparent;
+            border-radius: 1rem;
+            padding: 0.75rem 1rem;
+            transition: all 0.2s ease;
+          }
+          .tabs-menu__link.w--current {
+            background-color: var(--color--primary-blue) !important;
+            color: #fff !important;
+          }
+          .tabs-menu__link.w--current .tabs-menu__text {
+            color: #fff !important;
+          }
+          .tabs-menu__link.w--current:not(:last-child) {
+            margin-right: 0 !important;
+          }
+        }
+
         @media (max-width: 479px) {
           .tabs-menu {
             display: flex;
@@ -621,14 +695,23 @@
                 <h1 data-w-id="b61f46c8-f084-b7ee-246a-28a07447be77" style="opacity:0" class="h2 menu__h1">local,<span
                     class="empty-span">1</span>fresh,damn tasty.</h1>
               </div>
-              <div data-w-id="af72a4ba-ec34-3734-ffda-f46a65c35d7c" style="opacity:0" data-current="Sides"
+              <div data-w-id="af72a4ba-ec34-3734-ffda-f46a65c35d7c" style="opacity:0" data-current="All"
                 data-easing="ease" data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
-                <div class="tabs-menu w-tab-menu"><a data-w-tab="Smashburgers"
+                <div class="tabs-menu w-tab-menu"><a data-w-tab="All"
+                    class="tabs-menu__link w-inline-block w-tab-link w--current"><img width="40" height="40" alt="All"
+                      src="6723a1cf93ba512237855d35/6723a1cf93ba512237855d5d_logo.webp" loading="lazy"
+                      class="tabs-menu__icon">
+                    <div class="tabs-menu__text">All</div>
+                  </a><a data-w-tab="Smashburgers"
                     class="tabs-menu__link w-inline-block w-tab-link"><img width="40" height="40" alt="Smashburgers"
                       src="6723a1cf93ba512237855d35/rda-macaroni-pasta-zoom-24a0aa60.jpeg" loading="lazy"
                       class="tabs-menu__icon">
                     <div class="tabs-menu__text">mac n' cheese</div>
-                  </a><a data-w-tab="Sides" class="tabs-menu__link w-inline-block w-tab-link w--current"><img width="40"
+                  </a><a data-w-tab="Drinks" class="tabs-menu__link w-inline-block w-tab-link"><img width="40"
+                      height="40" alt="Drinks" src="6723a1cf93ba512237855d35/chips.jpg"
+                      loading="lazy" class="tabs-menu__icon">
+                    <div class="tabs-menu__text">Chips</div>
+                  </a><a data-w-tab="Sides" class="tabs-menu__link w-inline-block w-tab-link"><img width="40"
                       height="40" alt="Sides" src="6723a1cf93ba512237855d35/ice.jpg"
                       loading="lazy" class="tabs-menu__icon">
                     <div class="tabs-menu__text">Drinks</div>
@@ -636,10 +719,6 @@
                       height="40" alt="Sweets" src="6723a1cf93ba512237855d35/cookie.jpg"
                       loading="lazy" class="tabs-menu__icon">
                     <div class="tabs-menu__text">Sweets</div>
-                  </a><a data-w-tab="Drinks" class="tabs-menu__link w-inline-block w-tab-link"><img width="40"
-                      height="40" alt="Drinks" src="6723a1cf93ba512237855d35/chips.jpg"
-                      loading="lazy" class="tabs-menu__icon">
-                    <div class="tabs-menu__text">Snacks</div>
                   </a></div>
                 <div class="tabs-content w-tab-content">
                   <div data-w-tab="Smashburgers" class="tabs-content__pane w-tab-pane">
@@ -717,7 +796,7 @@
                       <div class="menu-slider__fraction"></div>
                     </div>
                   </div>
-                  <div data-w-tab="Sides" class="tabs-content__pane w-tab-pane w--tab-active">
+                  <div data-w-tab="Sides" class="tabs-content__pane w-tab-pane">
                     <div class="slider menu-slider">
                       <div id="sides-slider" class="swiper menu-slider__track w-dyn-list">
                         <div role="list" class="swiper-wrapper menu-slider__list w-dyn-items">
@@ -1427,12 +1506,24 @@
 
       function activate(name) {
         links.forEach(l => l.classList.toggle('w--current', l.getAttribute('data-w-tab') === name));
-        panes.forEach(p => p.classList.toggle('w--tab-active', p.getAttribute('data-w-tab') === name));
+        panes.forEach(p => {
+          if (name === 'All') {
+            p.classList.add('w--tab-active');
+            p.style.display = 'block';
+            p.style.opacity = '1';
+          } else {
+            const isActive = p.getAttribute('data-w-tab') === name;
+            p.classList.toggle('w--tab-active', isActive);
+            p.style.display = isActive ? 'block' : 'none';
+            p.style.opacity = isActive ? '1' : '0';
+          }
+        });
+        // Re-calculate swiper dimensions if necessary
+        window.dispatchEvent(new Event('resize'));
       }
 
       // Ensure one is active on load
-      const first = links[0];
-      if (first) activate(first.getAttribute('data-w-tab'));
+      activate('All');
 
       links.forEach(link => {
         link.addEventListener('click', e => {
