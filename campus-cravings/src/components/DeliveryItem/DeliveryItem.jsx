@@ -1,10 +1,15 @@
 import "./DeliveryItem.css"
 
-export default function DeliveryItem({name, image, price, onAdd}) {
+export default function DeliveryItem({name, image, price, quantity, onAdd}) {
 
     return (
         <button className="deliver-item-container" type="button" onClick={onAdd}>
-            <div className="delivery-item-flex">
+            {quantity > 0 && 
+                <div className="delivery-quantity">
+                    <div className="delivery-quantity-center">{quantity}x</div>
+                </div>
+            }
+            <div className="delivery-item-flex">  
                 <div>
                     <img className="delivery-image" src={`/assets/images/${image}`} alt={name}></img>
                 </div>

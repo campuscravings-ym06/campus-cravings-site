@@ -1,9 +1,7 @@
 .delivery-page {
     position: relative;
-}
-
-.delivery-content {
-    padding: 20px;
+    padding-top: 10vh;
+    padding-left: 5vw;
 }
 
 .delivery-category h2 {
@@ -13,12 +11,13 @@
 .delivery-row {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .c-scroll {
     height: 9rem;
+    margin-top: 10vh;
 }
 
 .cart-backdrop {
@@ -149,6 +148,10 @@
     font-weight: 700;
     padding: 12px;
     cursor: pointer;
+}
+
+.food-category {
+    font-size: xx-large;
 }
 
 @media (max-width: 991px) {
