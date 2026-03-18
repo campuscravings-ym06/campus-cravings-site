@@ -351,6 +351,30 @@ html.lenis,
 
         /* Dropdown Menu Stuff */
         @media (min-width: 992px) {
+          .nav__right-controls {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+          }
+
+          .nav__cart-btn {
+            border: 1px solid #1a1a1a;
+            border-radius: 999px;
+            padding: 0.45rem 0.9rem;
+            font-weight: 700;
+            line-height: 1;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #1a1a1a;
+            background: #fff;
+          }
+
+          .nav__cart-btn.w--current {
+            background: #f53a30;
+            border-color: #f53a30;
+            color: #fff;
+          }
+
           .burger {
             display: none;
           }
@@ -371,6 +395,32 @@ html.lenis,
         }
 
         @media (max-width: 991px) {
+          .nav__right-controls {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          z-index: 1000;
+          }
+
+          .nav__cart-btn {
+          border: 1px solid #1a1a1a;
+          border-radius: 999px;
+          padding: 0.35rem 0.7rem;
+          font-weight: 700;
+          font-size: 0.75rem;
+          line-height: 1;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #1a1a1a;
+          background: #fff;
+          }
+
+          .nav__cart-btn.w--current {
+          background: #f53a30;
+          border-color: #f53a30;
+          color: #fff;
+          }
+
             .burger {
             display: flex;
             align-items: center;
