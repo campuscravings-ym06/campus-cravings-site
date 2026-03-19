@@ -3,12 +3,13 @@
 import Link from "next/link";
 import './Navbar.css';
 
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
 
     const pathname = usePathname();
+  const router = useRouter();
     const [isVisible, setIsVisible] = useState(false);
     console.log(pathname)
 
@@ -23,6 +24,11 @@ export default function Navbar() {
     const toggleMenu = (e) => {
       e.preventDefault();
       setIsVisible(!isVisible);
+    }
+
+    const handleCartClick = (e) => {
+      e.preventDefault();
+      router.push(`/delivery?cart=toggle&t=${Date.now()}`, { scroll: false });
     }
 
     return (
@@ -56,26 +62,31 @@ export default function Navbar() {
               <img width="120"
               height="57" alt="logo" src="/assets/images/logo_hero.png" loading="lazy"
               data-logo="main"/></Link>
-          <div id="w-node-_0b7b9196-ea08-6b03-d762-a887b490f0f7-b490f0d2" className={`burger ${isVisible ? 'is-visible' : ''}`} onClick={(e) => toggleMenu(e)} style={{cursor: 'pointer', zIndex: 999}}>
-            <div className="burger__box">
-              <div className="w-embed" style={{ display: isVisible ? 'none' : 'block' }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <g clipPath="url(#clip0_490_863)">
-                    <path d="M4 6H20" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    <path d="M4 12H20" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    <path d="M4 18H20" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                  </g>
-                  <defs>
-                    <clippath id="clip0_490_863">
-                      <rect width="24" height="24" fill="white"></rect>
-                    </clippath>
-                  </defs>
-                </svg>
-              </div>
-              <div className="w-embed" style={{ display: isVisible ? 'block' : 'none' }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                </svg>
+          <div id="w-node-_0b7b9196-ea08-6b03-d762-a887b490f0f7-b490f0d2" className="nav__right-controls">
+            <Link href="/delivery?cart=toggle" onClick={handleCartClick} className={`nav__cart-btn ${isActive('/delivery')}`} aria-label="Toggle cart">
+              Cart
+            </Link>
+            <div className={`burger ${isVisible ? 'is-visible' : ''}`} onClick={(e) => toggleMenu(e)} style={{cursor: 'pointer', zIndex: 999}}>
+              <div className="burger__box">
+                <div className="w-embed" style={{ display: isVisible ? 'none' : 'block' }}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <g clipPath="url(#clip0_490_863)">
+                      <path d="M4 6H20" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                      <path d="M4 12H20" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                      <path d="M4 18H20" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                    </g>
+                    <defs>
+                      <clippath id="clip0_490_863">
+                        <rect width="24" height="24" fill="white"></rect>
+                      </clippath>
+                    </defs>
+                  </svg>
+                </div>
+                <div className="w-embed" style={{ display: isVisible ? 'block' : 'none' }}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M21 21L12 12M12 12L3 3M12 12L21.0001 3M12 12L3 21.0001" stroke="#1A1A1A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>

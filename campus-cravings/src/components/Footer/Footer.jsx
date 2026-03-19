@@ -34,7 +34,7 @@ export default function Footer() {
               <Link href="/locations" style={navLinkStyle}>
                 Location
               </Link>
-              <Link href="#" style={navLinkStyle}>
+              <Link href="/delivery" style={navLinkStyle}>
                 Delivery
               </Link>
             </div>
