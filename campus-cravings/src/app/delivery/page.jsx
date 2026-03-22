@@ -1,5 +1,8 @@
  "use client"
 
+import Script from "next/script"
+import DeliveryLocation from "../../components/DeliveryLocation/DeliveryLocation"
+
 import { useSearchParams } from "next/navigation"
 import { useEffect, useMemo, useState } from "react"
 import DeliveryItem from "../../components/DeliveryItem/DeliveryItem"
@@ -21,6 +24,9 @@ export default function Delivery() {
     const [cartItems, setCartItems] = useState([])
     const [isCartOpen, setIsCartOpen] = useState(false)
     const [cartQuantities, setCartQuantities] = useState({})
+
+    const [mapsReady, setMapsReady] = useState(false);
+    const [canOrder, setCanOrder] = useState(false);
 
     useEffect(() => {
         const cartAction = searchParams.get("cart")
@@ -148,11 +154,24 @@ export default function Delivery() {
                             </div>
 
                             <div className="cart-footer">
+                                <Script
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsiEG1Ah0m4RqZbv-hYzdgzCPxtWdJ6jM&libraries=places&language=en&region=CA"
+                                strategy="afterInteractive"
+                                onLoad={() => setMapsReady(true)}
+                                />
+
+                                {mapsReady && <DeliveryLocation setCanOrder={setCanOrder} />}
                                 <div className="cart-total-row">
                                     <span>Total</span>
                                     <strong>${cartTotal.toFixed(2)}</strong>
                                 </div>
-                                <button type="button" className="checkout-btn">Checkout</button>
+                                <button
+                                type="button"
+                                className={canOrder ? "checkout-btn active" : "checkout-btn disabled"}
+                                disabled={!canOrder}
+                                >
+                                Checkout
+                                </button>
                             </div>
                         </>
                     )}

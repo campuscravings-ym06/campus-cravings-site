@@ -2,10 +2,9 @@
 import { useState, useEffect, useRef } from "react";
 import "./DeliveryLocation.css";
 
-export default function DeliveryLocation() {
+export default function DeliveryLocation({ setCanOrder }) {
 
   const [address, setAddress] = useState("");
-  const [canOrder, setCanOrder] = useState(false);
   const [message, setMessage] = useState("");
 
   const inputRef = useRef(null);
@@ -90,9 +89,6 @@ export default function DeliveryLocation() {
 
   return (
     <div className="delivery-infobar">
-
-      <h5>Delivery Address</h5>
-
       <input
         ref={inputRef}
         type="text"
@@ -102,13 +98,6 @@ export default function DeliveryLocation() {
       />
 
       <p className="delivery-message">{message}</p>
-
-      <button
-        disabled={!canOrder}
-        className={canOrder ? "place-order-btn active" : "place-order-btn disabled"}
-      >
-        Confirm Order
-      </button>
 
     </div>
   );
