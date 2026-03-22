@@ -154,13 +154,15 @@ export default function Delivery() {
                             </div>
 
                             <div className="cart-footer">
-                                <Script
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsiEG1Ah0m4RqZbv-hYzdgzCPxtWdJ6jM&libraries=places&language=en&region=CA"
-                                strategy="afterInteractive"
-                                onLoad={() => setMapsReady(true)}
-                                />
+                                <div className="cart-location-wrapper">
+                                    <Script
+                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsiEG1Ah0m4RqZbv-hYzdgzCPxtWdJ6jM&libraries=places&language=en&region=CA"
+                                    strategy="afterInteractive"
+                                    onLoad={() => setMapsReady(true)}
+                                    />
 
-                                {mapsReady && <DeliveryLocation setCanOrder={setCanOrder} />}
+                                    {mapsReady && <DeliveryLocation setCanOrder={setCanOrder} />}
+                                </div>
                                 <div className="cart-total-row">
                                     <span>Total</span>
                                     <strong>${cartTotal.toFixed(2)}</strong>

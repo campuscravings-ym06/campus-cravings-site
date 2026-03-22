@@ -95,6 +95,7 @@ export default function DeliveryLocation({ setCanOrder }) {
         placeholder="Enter your delivery address"
         value={address}
         onChange={(e) => setAddress(e.target.value)}
+        className="delivery-location-input"
       />
 
       <p className="delivery-message">{message}</p>

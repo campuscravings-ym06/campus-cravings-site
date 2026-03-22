@@ -40,3 +40,10 @@
   color: #666;
   cursor: not-allowed;
 }
+
+.delivery-location-input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid;
+}

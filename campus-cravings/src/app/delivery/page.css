@@ -85,6 +85,11 @@
     color: #555;
 }
 
+.cart-location-wrapper {
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 10px;
+}
+
 .cart-list {
     overflow: auto;
     padding: 12px 16px;
