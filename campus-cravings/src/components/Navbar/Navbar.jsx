@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 export default function Navbar() {
 
     const pathname = usePathname();
-  const router = useRouter();
+    const router = useRouter();
     const [isVisible, setIsVisible] = useState(false);
     console.log(pathname)
 
