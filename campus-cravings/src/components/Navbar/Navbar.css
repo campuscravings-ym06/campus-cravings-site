@@ -78,6 +78,7 @@ html.lenis,
           .nav .container .nav__menu-wrap.is-open {
             max-height: 200px;
             padding-bottom: 2rem;
+            pointer-events: auto;
           }
           
           .nav .container .nav__menu {
