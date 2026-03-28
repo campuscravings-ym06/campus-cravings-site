@@ -27,6 +27,7 @@ export default function Delivery() {
 
     const [mapsReady, setMapsReady] = useState(false);
     const [canOrder, setCanOrder] = useState(false);
+    const [selectedCategory, setSelectedCategory] = useState("All")
 
     useEffect(() => {
         const cartAction = searchParams.get("cart")
@@ -54,9 +55,10 @@ export default function Delivery() {
         })
 
         setCartQuantities((prev => {
-            if (existing) prev[item.name] += 1;
-            else prev[item.name] = 1;
-            return prev;
+            const updated = { ...prev };
+            if (existing) updated[item.name] += 1;
+            else updated[item.name] = 1;
+            return updated;
         }))
 
         setIsCartOpen(true)
@@ -89,11 +91,33 @@ export default function Delivery() {
         }, 0)
     }, [cartItems])
 
+    const categories = ["All", ...Object.keys(menuItems)]
+
+    const filteredMenuItems = useMemo(() => {
+        if (selectedCategory === "All") return menuItems
+        return { [selectedCategory]: menuItems[selectedCategory] }
+    }, [selectedCategory])
+
     return (
         <div>
             <div className="delivery-page">
+                <aside className="category-sidebar">
+                    <nav className="category-nav">
+                        {categories.map((cat) => (
+                            <button
+                                key={cat}
+                                type="button"
+                                className={`category-btn ${selectedCategory === cat ? "active" : ""}`}
+                                onClick={() => setSelectedCategory(cat)}
+                            >
+                                {cat === "MacNCheese" ? "Mac N' Cheese" : cat}
+                            </button>
+                        ))}
+                    </nav>
+                </aside>
+
                 <div className="delivery-content">
-                    {Object.entries(menuItems).map(([category, items]) => (
+                    {Object.entries(filteredMenuItems).map(([category, items]) => (
                         <section key={category} className="delivery-category">
                             {category === "MacNCheese" ? 
                                 <h2 className="food-category">Mac N' Cheese</h2> :
