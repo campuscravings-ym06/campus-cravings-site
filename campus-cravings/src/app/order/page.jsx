@@ -1,9 +1,17 @@
+"use client"
+import { useEffect } from "react"
 import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import "./page.css"
 
-export default function Order () {
-    return (
-        <main className="main-wrapper">
+export default function Order() {
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto" })
+    })
+  }, [])
+
+  return (
+    <main className="main-wrapper">
       <section data-background="white" className="section p-locations">
         <div className="page-padding in-p-locations">
           <div className="w-layout-blockcontainer container in-location w-container">
@@ -18,55 +26,56 @@ export default function Order () {
                   <div role="list" className="location-list w-dyn-items">
                     <div role="listitem" className="location-item w-dyn-item">
                       <div className="location-slide">
-                        <div id="location-1"
-                          className=" location-slider__track location-slider__in-location w-dyn-list">
-                          <div role="list" className="swiper-wrapper location-slider__list w-dyn-items">
-                            <div role="listitem"
-                              className=" location-slider__slide w-dyn-item w-dyn-repeater-item">
-                              <div className="location-slide__img-wrap location-height">
-                                <img
-                                  src="/assets/images/Location (1).png"
-                                  alt=""
-                                  sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"
-                                  srcSet="/assets/images/Location (1).png 500w, /assets/images/Location (1).png 800w, /assets/images/Location.png 1080w, /assets/images/Location (1).png 1600w, /assets/images/Location (1).png 2000w"
-                                  className="location-slide__img location-height location-pos"/>
+                        <div className="location-slide__img-wrap location-height">
+                          <img
+                            src="/assets/images/Location (1).png"
+                            alt=""
+                            className="location-slide__img location-height location-pos"
+                          />
+
+                          <div className="location-slide__info location-slide__info-location">
+                            <img
+                              src="/assets/images/Untitled_Artwork (1).png"
+                              loading="lazy"
+                              alt=""
+                              className="location-slide__gif"
+                            />
+
+                            <div className="loaction-slide__column">
+                              <h2 className="text-secondary-15">
+                                Text "Order" to 343-305-5522
+                              </h2>
+
+                              <div className="flex-row location-row-1 mobile-column">
+                                <div className="text-secondary-16 mobile-16 location-address">
+                                  Please ensure your home is within the blue zone above
                                 </div>
-                          </div>
-                          <div className="w-dyn-hide w-dyn-empty">
-                            <div>No items found.</div>
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div role="listitem" className="location-item w-dyn-item">
-                      <div className="location-slide">
-                        <div id="location-2"
-                          className="swiper location-slider__track location-slider__in-location w-dyn-list"></div>
-                          <div className="w-dyn-hide w-dyn-empty">
-                            <div>No items found.</div>
-                          </div>
-                        </div>
-                        <div className="location-slide__info location-slide__info-location"><img
-                            src="/assets/images/Untitled_Artwork (1).png" loading="lazy"
-                            alt="" className="location-slide__gif"/>
-                          <div className="loaction-slide__column">
-                            <h2 className="text-secondary-15">Text "Order" to 343-305-5522</h2>
-                            <div className="flex-row location-row-1 mobile-column">
-                              
-                              <div className="text-secondary-16 mobile-16 location-address">Please ensure your home is within the blue zone above</div>
-                            </div>
-                            <div className="flex-row location-row-1">
-                              <div className="text-secondary-15 shrink-0">We only deliver to:</div><a href="tel:+41799342959"
-                                className="text-secondary-16 mobile-16 phone phone-mob">Homes</a>
-                              <p className="text-secondary-16 mobile-16 phone">Homes in the Queens student ghetto</p><a href="#"
-                                className="location-slide__link w-inline-block"></a>
-                            </div>
-                            <div className="flex-row location-row-2">
-                              <div className="text-secondary-15 shrink-0">We’re Open:</div>
-                              <div className="location-slide__rich-text w-richtext">
-                                <p>SAT : 9:00PM - 1:00AM</p>
-                                <p>SUN : 9:00pm - 1:00AM</p>
+                              </div>
+
+                              <div className="flex-row location-row-1">
+                                <div className="text-secondary-15 shrink-0">
+                                  We only deliver to:
+                                </div>
+                                <a
+                                  href="tel:+41799342959"
+                                  className="text-secondary-16 mobile-16 phone phone-mob"
+                                >
+                                  Homes
+                                </a>
+                                <p className="text-secondary-16 mobile-16 phone">
+                                  Homes in the Queens student ghetto
+                                </p>
+                                <a href="#" className="location-slide__link w-inline-block"></a>
+                              </div>
+
+                              <div className="flex-row location-row-2">
+                                <div className="text-secondary-15 shrink-0">
+                                  We’re Open:
+                                </div>
+                                <div className="location-slide__rich-text w-richtext">
+                                  <p>SAT : 9:00PM - 1:00AM</p>
+                                  <p>SUN : 9:00pm - 1:00AM</p>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -83,10 +92,11 @@ export default function Order () {
               </div>
             </div>
           </div>
-        <div className="banner p-locations-banner">
-          <ScrollingCs/>
+          <div className="banner p-locations-banner">
+            <ScrollingCs/>
+          </div>
         </div>
       </section>
     </main>
-    )
+  )
 }
