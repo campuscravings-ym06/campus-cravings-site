@@ -222,6 +222,11 @@
         padding-right: 5vw;
     }
 
+    .cart-drawer {
+        --navbar-height: 72px;
+        width: max(400px, 30vw);
+    }
+    
     .category-sidebar {
         width: 100%;
         position: static;
