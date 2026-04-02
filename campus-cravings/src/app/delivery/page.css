@@ -1,9 +1,7 @@
 .delivery-page {
     position: relative;
-}
-
-.delivery-content {
-    padding: 20px;
+    padding-top: 10vh;
+    padding-left: 5vw;
 }
 
 .delivery-category h2 {
@@ -13,12 +11,13 @@
 .delivery-row {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .c-scroll {
     height: 9rem;
+    margin-top: 10vh;
 }
 
 .cart-backdrop {
@@ -86,6 +85,11 @@
     color: #555;
 }
 
+.cart-location-wrapper {
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 10px;
+}
+
 .cart-list {
     overflow: auto;
     padding: 12px 16px;
@@ -140,7 +144,7 @@
     margin-bottom: 10px;
 }
 
-.checkout-btn {
+.checkout-btn.active {
     width: 100%;
     border: 0;
     border-radius: 8px;
@@ -149,6 +153,20 @@
     font-weight: 700;
     padding: 12px;
     cursor: pointer;
+}
+.checkout-btn.disabled {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 12px;
+    background-color: #ccc; 
+    color: #666;
+    cursor: not-allowed;
+}
+
+.food-category {
+    font-size: xx-large;
 }
 
 @media (max-width: 991px) {
