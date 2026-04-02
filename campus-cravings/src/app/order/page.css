@@ -1,6 +1,8 @@
 .location-slide__img-wrap {
-        border-bottom: 1px solid var(--color--primary-black)
-    }
+    position: relative;
+    border-bottom: 1px solid var(--color--primary-black);
+    overflow: hidden;
+}
 
     @media (min-width : 1440px) {
         .location-slide__img {
