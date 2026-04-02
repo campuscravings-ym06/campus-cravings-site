@@ -176,7 +176,7 @@
 
     .cart-drawer {
         --navbar-height: 72px;
-        width: 100vw;
+        width: max(400px, 30vw);
     }
 
     .cart-header h3 {
