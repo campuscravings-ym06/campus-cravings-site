@@ -71,11 +71,11 @@ export default function MenuCarousel() {
                         loading="lazy" className="tabs-menu__icon"/>
                     <div className="tabs-menu__text">Sweets</div>
                 </div>
-                <div data-w-tab="Drinks" className={`tabs-menu__link w-inline-block w-tab-link ${curDisplay == "Snacks" ? "w--current" : ""}`} onClick={() => setCurDisplay("Snacks")}>
+                <div data-w-tab="Drinks" className={`tabs-menu__link w-inline-block w-tab-link ${curDisplay == "Chips" ? "w--current" : ""}`} onClick={() => setCurDisplay("Chips")}>
                     <img width="40"
                         height="40" alt="Drinks" src="/assets/images/chips.jpg"
                         loading="lazy" className="tabs-menu__icon"/>
-                    <div className="tabs-menu__text">Snacks</div>
+                    <div className="tabs-menu__text">Chips</div>
                 </div>
             </div>
             
