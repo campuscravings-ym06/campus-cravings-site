@@ -1,0 +1,49 @@
+.delivery-message {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #cc0000;
+  margin-bottom: 8px;
+}
+
+/* Check Delivery button */
+.check-delivery-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  display: center;
+  transition: background-color 0.2s ease;
+}
+
+/* Place Order button */
+.place-order-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Active / available green */
+.place-order-btn.active {
+  background-color: #28a745; 
+  color: white;
+}
+
+/* Disabled / unavailable  grey*/
+.place-order-btn.disabled {
+  background-color: #ccc; 
+  color: #666;
+  cursor: not-allowed;
+}
+
+.delivery-location-input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid;
+}
