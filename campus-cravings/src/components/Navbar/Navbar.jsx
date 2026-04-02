@@ -54,6 +54,11 @@ export default function Navbar() {
                     <div>Order</div>
                   </Link>
                 </li>
+                <li>
+                  <Link href={'/delivery'} className={`nav__link w-inline-block ${isActive('/delivery')}`}>
+                    <div>Delivery</div>
+                  </Link>
+                </li>
               </ul>
             </div>
           </nav>
