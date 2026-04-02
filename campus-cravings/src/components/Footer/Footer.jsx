@@ -31,8 +31,8 @@ export default function Footer() {
               <Link href="/menu" style={navLinkStyle}>
                 Menu
               </Link>
-              <Link href="/locations" style={navLinkStyle}>
-                Location
+              <Link href="/order" style={navLinkStyle}>
+                Order
               </Link>
               <Link href="/delivery" style={navLinkStyle}>
                 Delivery
