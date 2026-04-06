@@ -1,4 +1,4 @@
- "use client"
+"use client"
 
 import Script from "next/script"
 import DeliveryLocation from "../../components/DeliveryLocation/DeliveryLocation"
@@ -26,7 +26,6 @@ export default function Delivery() {
     const [isCartOpen, setIsCartOpen] = useState(false)
     const [cartQuantities, setCartQuantities] = useState({})
 
-    const [mapsReady, setMapsReady] = useState(false);
     const [canOrder, setCanOrder] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState("All")
 
@@ -183,10 +182,9 @@ export default function Delivery() {
                                     <Script
                                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsiEG1Ah0m4RqZbv-hYzdgzCPxtWdJ6jM&libraries=places&language=en&region=CA"
                                     strategy="afterInteractive"
-                                    onLoad={() => setMapsReady(true)}
                                     />
 
-                                    {mapsReady && <DeliveryLocation setCanOrder={setCanOrder} />}
+                                    {<DeliveryLocation setCanOrder={setCanOrder} />}
                                 </div>
                                 <div className="cart-total-row">
                                     <span>Total</span>
