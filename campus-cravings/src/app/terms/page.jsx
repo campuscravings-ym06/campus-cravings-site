@@ -60,9 +60,6 @@ export default function Terms() {
                             </div>
                         </div>
                     </div>
-                    <div className="banner p-locations-banner">
-                        <ScrollingCs/>
-                    </div>
                 </section>
             </div>
         </div>

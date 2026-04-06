@@ -52,3 +52,7 @@
 .logo.in-footer.w--current {
     margin-right: 0
 }
+
+.c-scroll {
+    height: 9rem;
+}

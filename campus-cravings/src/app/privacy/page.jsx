@@ -57,9 +57,6 @@ export default function Privacy() {
                         </div>
                     </div>
                 </div>
-                <div className="banner p-locations-banner">
-                    <ScrollingCs/>
-                </div>
             </section>
         </div>
     )

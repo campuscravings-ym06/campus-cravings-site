@@ -79,9 +79,6 @@ We will update this policy once cookies are implemented on our website. Please c
 </div>
 </div>
 </div>
-<div className="banner p-locations-banner">
-<ScrollingCs/>
-</div>
 </section>
 </div>
     )
