@@ -9,6 +9,7 @@ import DeliveryItem from "../../components/DeliveryItem/DeliveryItem"
 import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import { menuItems } from "../../js/menuItems"
 import "./page.css"
+import Link from "next/link"
 
 function getNumberPrice(price) {
     if (typeof price === "number") {
@@ -191,21 +192,20 @@ export default function Delivery() {
                                     <span>Total</span>
                                     <strong>${cartTotal.toFixed(2)}</strong>
                                 </div>
-                                <button
-                                type="button"
-                                className={canOrder ? "checkout-btn active" : "checkout-btn disabled"}
-                                disabled={!canOrder}
-                                >
-                                Checkout
-                                </button>
+                                <Link href={canOrder ? "/delivery/complete" : {}}>
+                                    <button
+                                    type="button"
+                                    className={canOrder ? "checkout-btn active" : "checkout-btn disabled"}
+                                    disabled={!canOrder}
+                                    >
+                                    Checkout
+                                    </button>
+                                </Link>
                             </div>
                         </>
                     )}
                 </aside>
             </div>
-            <div className="c-scroll">
-                        <ScrollingCs />
-                    </div>
         </div>
     )
 }

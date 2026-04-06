@@ -125,9 +125,6 @@ export default function About() {
       </div>
     </div>
     <div id="anchor-team" className="anchor"></div>
-    <div className="banner team-banner">
-      <ScrollingCs/>
-    </div>
   </section>
   </main>
     )

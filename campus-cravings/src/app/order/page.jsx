@@ -92,9 +92,6 @@ export default function Order() {
               </div>
             </div>
           </div>
-          <div className="banner p-locations-banner">
-            <ScrollingCs/>
-          </div>
         </div>
         
       </section>
