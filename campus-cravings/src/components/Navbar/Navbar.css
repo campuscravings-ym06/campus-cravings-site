@@ -29,18 +29,16 @@ html.lenis,
           --grid-breakout: var(--breakout-start) repeat(var(--column-count), minmax(0, calc((var(--breakout-remaining) - (var(--grid-gap--main) * (var(--column-count) - 1))) / var(--column-count)))) var(--breakout-end);
         }
 
-        /* Make text look crisper and more legible in all browsers */
         body {
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
-          font-smoothing: antialiased;
+          font-smooth: antialiased;
         }
 
         .color-beige {
           color: var(--color--primary-beige);
         }
 
-        /* Fluid responsive    */
         @media (min-width: 1440px) and (min-height: 900px) {
           html {
             font-size: 16px;
@@ -135,8 +133,6 @@ html.lenis,
           -webkit-tap-highlight-color: transparent;
         }
 
-
-        /* Apply "..." after 3 lines of text */
         .text-style-3lines {
           display: -webkit-box;
           overflow: hidden;
@@ -146,18 +142,13 @@ html.lenis,
 
         .delivery-modal__content {
           -ms-overflow-style: none;
-          /* Internet Explorer 10+ */
           scrollbar-width: none;
-          /* Firefox */
         }
 
         .delivery-modal__content::-webkit-scrollbar {
           display: none;
-          /* Safari and Chrome */
         }
 
-
-        /* Apply "..." after 2 lines of text */
         .text-style-2lines {
           display: -webkit-box;
           overflow: hidden;
