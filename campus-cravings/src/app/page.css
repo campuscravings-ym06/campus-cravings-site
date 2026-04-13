@@ -101,3 +101,9 @@
       opacity: 1 !important;
       transform: none !important;
     }
+
+@media (max-width : 600px) {
+  .swiper-wrapper.founders-slider__list.about-wrapper {
+    width: 100vw !important;
+  }
+}

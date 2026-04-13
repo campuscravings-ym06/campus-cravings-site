@@ -8,7 +8,8 @@
     display: flex; 
     flex-direction: row;
     max-width: 90vw;
-    max-height: 800px;
+    min-height: 470px;
+    height: 65vh;
     overflow: hidden;
 }
 
@@ -32,4 +33,24 @@
 }
 .tabs-menu__link {
     transition: background-color 0.3s ease, color 0.2s ease, all 0.3s ease;
+}
+
+
+@media (max-width: 600px) {
+    .menu-items {
+        height: min-content;
+    }
+}
+/* 
+@media (max-height : 1181px) {
+    .menu-items {
+        max-height: 500px;
+    }
+} */
+
+.menu-slider-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

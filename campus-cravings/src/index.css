@@ -2710,7 +2710,7 @@ em {
 
 .container {
     width: 100%;
-    max-width: 1320px;
+    max-width: 1420px;
     height: 100%;
     margin-left: auto;
     margin-right: auto
@@ -4434,14 +4434,11 @@ em {
     justify-content: center;
     align-items: center;
     width: 5.13rem;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: .5rem;
     font-size: .88rem;
     line-height: 160%;
     display: flex;
-    left: 50%;
-    margin-left: 50%;
-    transform: translate(-50%,0);
 }
 
 .empty-span {

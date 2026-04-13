@@ -98,19 +98,19 @@ export default function MenuCarousel() {
                     }}
                 >
                     {dispItems.map((item,index) => {
+                        const isCenter = index == swiperIndex + 1 || (index == 0 && swiperIndex + 1 == dispItems.length);
                         return (
                             <SwiperSlide key={item.name}>
-                                <MenuItem name={item.name} image={item.image} price={item.price} priceDesc={item.priceDesc} descTitle={item.descTitle} desc={item.desc} sticker={item.sticker} isCenter={index == swiperIndex + 1} canRotate={dispItems.length > 3}/>
+                                <MenuItem name={item.name} image={item.image} price={item.price} priceDesc={item.priceDesc} descTitle={item.descTitle} desc={item.desc} sticker={item.sticker} isCenter={isCenter} canRotate={dispItems.length > 3}/>
                             </SwiperSlide>
                         )
                     })}
                 </Swiper> : 
                 <Swiper
-                modules={[Navigation, Pagination]}
+                modules={[Navigation]}
                     slidesPerView={MOBILE_MAX_PROD}
                     spaceBetween={0}
                     loop
-                    pagination
                     onSlideChange={(swiper) => setSwiperIndex(swiper.realIndex)}
                     onSwiper={(swiper) => {setSwiperInstance(swiper); setSwiperIndex(swiper.activeIndex)}}
                     onBeforeInit={(swiper) => {
@@ -161,7 +161,9 @@ export default function MenuCarousel() {
             {((dispItems.length > DESKTOP_MAX_PROD && width > MOBILE_WIDTH) || (dispItems.length > MOBILE_MAX_PROD && width <= MOBILE_WIDTH)) && (
                 <>
                 <div className="swiper-pagination menu-slider__pag"></div>
-                <div className="menu-slider__fraction">{swiperIndex + 1} of {dispItems.length}</div>
+                <div className="menu-slider-container">
+                    <div className="menu-slider__fraction">{swiperIndex + 1} of {dispItems.length}</div>
+                </div>
                 </>
             )}
         </div>

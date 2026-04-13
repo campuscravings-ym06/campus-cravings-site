@@ -10,6 +10,7 @@ export default function MenuItem({name, image, price, priceDesc="", descTitle=""
         curImgClass = "swiper-prevent-enlarge"
         curTextClass = "swiper-prevent-enlarge"
     }
+    console.log(isCenter)
 
     return (
         <div className="menu-slide">

@@ -10,7 +10,7 @@ export default function About() {
                 <div className="wrap founders__wrap">
                 <div className="slider founders-slider">
                     <div id="founders-slider" className="swiper founders-slider__track">
-                    <div className="swiper-wrapper founders-slider__list">
+                    <div className="swiper-wrapper founders-slider__list about-wrapper">
                         <div className="swiper-slide founders-slider__slide v1">
                         <div className="founders-slide v1">
                             <div className="founders-slide__heading">

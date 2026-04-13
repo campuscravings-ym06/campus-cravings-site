@@ -6,28 +6,18 @@ import DeliveryLocation from "../../components/DeliveryLocation/DeliveryLocation
 import { useSearchParams } from "next/navigation"
 import { useEffect, useMemo, useState } from "react"
 import DeliveryItem from "../../components/DeliveryItem/DeliveryItem"
-import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import { menuItems } from "../../js/menuItems"
+import {useCart} from "../../contexts/cartContext"
 import "./page.css"
 import Link from "next/link"
 
-function getNumberPrice(price) {
-    if (typeof price === "number") {
-        return price
-    }
-
-    const normalized = Number.parseFloat(String(price).replace(/[^\d.]/g, ""))
-    return Number.isNaN(normalized) ? 0 : normalized
-}
 
 export default function Delivery() {
     const searchParams = useSearchParams()
-    const [cartItems, setCartItems] = useState([])
-    const [isCartOpen, setIsCartOpen] = useState(false)
-    const [cartQuantities, setCartQuantities] = useState({})
-
     const [canOrder, setCanOrder] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState("All")
+
+    const {updateQuantity, addToCart, cartTotal, cartQuantities, cartItems, isCartOpen, setIsCartOpen} = useCart()
 
     useEffect(() => {
         const cartAction = searchParams.get("cart")
@@ -40,56 +30,6 @@ export default function Delivery() {
         }
     }, [searchParams])
 
-    const addToCart = (item) => {
-        const existing = cartItems.find((cartItem) => cartItem.name === item.name)
-        setCartItems((prev) => {
-            if (existing) {
-                return prev.map((cartItem) =>
-                    cartItem.name === item.name
-                        ? { ...cartItem, quantity: cartItem.quantity + 1 }
-                        : cartItem
-                )
-            }
-
-            return [...prev, { ...item, quantity: 1 }]
-        })
-
-        setCartQuantities((prev => {
-            const updated = { ...prev };
-            if (existing) updated[item.name] += 1;
-            else updated[item.name] = 1;
-            return updated;
-        }))
-
-        setIsCartOpen(true)
-    }
-
-    const updateQuantity = (name, amount) => {
-        setCartItems((prev) =>
-            prev
-                .map((item) =>
-                    item.name === name ? { ...item, quantity: item.quantity + amount } : item
-                )
-                .filter((item) => item.quantity > 0)
-        )
-        setCartQuantities((prev) => {
-            const updated = { ...prev };
-
-            updated[name] = (updated[name] || 0) + amount;
-
-            if (updated[name] <= 0) {
-                delete updated[name];
-            }
-
-            return updated;
-        });
-    }
-
-    const cartTotal = useMemo(() => {
-        return cartItems.reduce((total, item) => {
-            return total + getNumberPrice(item.price) * item.quantity
-        }, 0)
-    }, [cartItems])
 
     const categories = ["All", ...Object.keys(menuItems)]
 
