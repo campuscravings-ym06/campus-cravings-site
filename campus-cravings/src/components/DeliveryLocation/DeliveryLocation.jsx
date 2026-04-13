@@ -6,6 +6,7 @@ export default function DeliveryLocation({ setCanOrder }) {
 
   const [address, setAddress] = useState("");
   const [message, setMessage] = useState("");
+  const [autocompleteReady, setAutocompleteReady] = useState(false);
 
   const inputRef = useRef(null);
 
@@ -28,12 +29,13 @@ export default function DeliveryLocation({ setCanOrder }) {
         componentRestrictions: { country: "ca" }
       }
     );
-
+    setAutocompleteReady(true);
     autocomplete.addListener("place_changed", () => {
 
       const place = autocomplete.getPlace();
 
       if (!place.geometry) {
+        setCanOrder(false)
         setMessage("Please select a valid address.");
         return;
       }
@@ -92,9 +94,13 @@ export default function DeliveryLocation({ setCanOrder }) {
       <input
         ref={inputRef}
         type="text"
-        placeholder="Enter your delivery address"
+        placeholder={autocompleteReady ? "Enter your delivery address" : "Loading address search..."}
         value={address}
-        onChange={(e) => setAddress(e.target.value)}
+        onChange={(e) => {
+          setAddress(e.target.value);
+          setCanOrder(false);
+          setMessage("Please select an address from the suggestions.");
+        }}
         className="delivery-location-input"
       />
 
