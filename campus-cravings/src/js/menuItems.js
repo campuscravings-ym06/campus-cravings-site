@@ -19,7 +19,7 @@ export const menuItems = {
             "sticker" : "6723a1cf93ba512237855e34_classic-sticker.avif"
         },
     ],
-    Snacks: [
+    Chips: [
         {
             "name" : "CHEETOS PUFFS",
             "image" : "cheetos_chips.png",

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./Footer.css";
+import ScrollingCs from "../ScrollingCs/ScrollingCs"
 
 export default function Footer() {
   const navLinkStyle = {
@@ -14,10 +15,12 @@ export default function Footer() {
   const bottomLinkStyle = { color: "white", textDecoration: "none" };
 
   return (
-    <footer
-      className="footer"
-      style={{ backgroundColor: "#f53a30", padding: "20px", color: "white" }}
-    >
+    <div className="footer-container">
+      <div className="c-scroll">
+                    <ScrollingCs />
+            </div>
+    
+    <footer className="footer" style={{ backgroundColor: "#f53a30", padding: "20px", color: "white"}}>
       <div className="page-padding">
         <div className="w-layout-blockcontainer container w-container">
           <div className="footer-top-row">
@@ -44,8 +47,8 @@ export default function Footer() {
               <Link href="/menu" style={navLinkStyle}>
                 Menu
               </Link>
-              <Link href="/locations" style={navLinkStyle}>
-                Location
+              <Link href="/order" style={navLinkStyle}>
+                Order
               </Link>
               <Link href="/delivery" style={navLinkStyle}>
                 Delivery
@@ -138,5 +141,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </div>
   );
 }

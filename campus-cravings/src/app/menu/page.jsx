@@ -24,9 +24,6 @@ export default function Menu() {
                       </div>
                   </div>
                   </div>
-        <div className="banner menu-banner">
-          <ScrollingCs/>
-        </div>
       </section>
     </main>
     )
