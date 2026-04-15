@@ -16,6 +16,7 @@ export default function Delivery() {
     const searchParams = useSearchParams()
     const [canOrder, setCanOrder] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState("All")
+    console.log(selectedCategory)
 
     const {updateQuantity, addToCart, cartTotal, cartQuantities, cartItems, isCartOpen, setIsCartOpen} = useCart()
 
@@ -56,7 +57,7 @@ export default function Delivery() {
                     </nav>
                 </aside>
 
-                <div className="delivery-content">
+                <div className={`delivery-content ${selectedCategory === "Sweets" || selectedCategory === "Drinks" || selectedCategory === "MacNCheese" ? "delivery-spacer" : ""}`}>
                     {Object.entries(filteredMenuItems).map(([category, items]) => (
                         <section key={category} className="delivery-category">
                             {category === "MacNCheese" ? 

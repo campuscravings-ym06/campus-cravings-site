@@ -20,7 +20,6 @@ export default function MenuCarousel() {
     const nextRef = useRef(null);
 
     const [width, setWidth] = useState(null);
-    console.log(swiperIndex)
 
     const MOBILE_WIDTH = 500;
     const MOBILE_MAX_PROD = 1;

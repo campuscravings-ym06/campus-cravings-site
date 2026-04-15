@@ -1,6 +1,5 @@
 "use client"
 import { useEffect } from "react"
-import ScrollingCs from "../../components/ScrollingCs/ScrollingCs"
 import "./page.css"
 
 export default function Order() {
@@ -22,8 +21,8 @@ export default function Order() {
               </div>
               <div className="slider location-slider">
                 <div data-w-id="ebc00dd7-0714-55d7-44a4-d887ca1c3924"
-                  className="location-collection w-dyn-list">
-                  <div role="list" className="location-list w-dyn-items">
+                  className="location-collection w-dyn-list ">
+                  <div role="list" className="location-list w-dyn-items ">
                     <div role="listitem" className="location-item w-dyn-item">
                       <div className="location-slide">
                         <div className="location-slide__img-wrap location-height">

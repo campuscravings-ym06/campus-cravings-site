@@ -9,9 +9,9 @@ export default function About() {
             <div className="w-layout-blockcontainer container w-container">
                 <div className="wrap founders__wrap">
                 <div className="slider founders-slider">
-                    <div id="founders-slider" className="swiper founders-slider__track">
-                    <div className="swiper-wrapper founders-slider__list about-wrapper">
-                        <div className="swiper-slide founders-slider__slide v1">
+                    <div id="founders-slider" className="founders-slider__track">
+                    <div className="about-wrapper founders-slider__list about-wrapper">
+                        <div className="about-slide founders-slider__slide v1">
                         <div className="founders-slide v1">
                             <div className="founders-slide__heading">
                             <h1 data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460" className="h2 founders__h2">who we are</h1>
@@ -32,7 +32,7 @@ export default function About() {
                                 NIGHT A LITTLE BETTER.</p>
                         </div>
                         </div>
-                        <div className="swiper-slide founders-slider__slide v2">
+                        <div className="founders-slider__slide v2">
                         <div className="founders-slide v2">
                             <div data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df" className="founders-slide__img-wrap v2">
                                 <img

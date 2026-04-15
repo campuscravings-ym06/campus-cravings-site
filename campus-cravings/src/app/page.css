@@ -1,92 +1,26 @@
-@media (min-width:992px) {
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460"] {
-        opacity: 0;
-      }
+.about-slide.founders-slider__slide {
+    flex: 0 auto;
+    width: auto;
+    padding-top: 10px;
+    height: auto !important;
+    overflow: visible !important;
+}
 
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="132d28c5-b070-8108-c9dd-80b99daad65e"] {
-        opacity: 0;
-      }
+.founders-slide__heading {
+    z-index: 2;
+    grid-column-gap: 6rem;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    inset: -5.5rem auto auto -0.5rem
+}
 
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="aaae2159-6ba0-15ce-dd7d-dd3116c4f5e4"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="c92d8e39-66d1-1c70-1304-e327bebafff8"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="b417270c-7252-d44d-b5de-d4ad8467320d"] {
-        opacity: 0;
-      }
-    }
-
-    @media (max-width:991px) and (min-width:768px) {
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="132d28c5-b070-8108-c9dd-80b99daad65e"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="aaae2159-6ba0-15ce-dd7d-dd3116c4f5e4"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="c92d8e39-66d1-1c70-1304-e327bebafff8"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="b417270c-7252-d44d-b5de-d4ad8467320d"] {
-        opacity: 0;
-      }
-    }
-
-    @media (max-width:767px) and (min-width:480px) {
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="f4bb5e05-edb4-ddcb-15df-e53ade87e460"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="132d28c5-b070-8108-c9dd-80b99daad65e"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4db"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="aaae2159-6ba0-15ce-dd7d-dd3116c4f5e4"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="c92d8e39-66d1-1c70-1304-e327bebafff8"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="9fcc3076-39e2-a62f-b68c-31401e63a4df"] {
-        opacity: 0;
-      }
-
-      html.w-mod-js:not(.w-mod-ix) [data-w-id="b417270c-7252-d44d-b5de-d4ad8467320d"] {
-        opacity: 0;
-      }
-    }
+.about-wrapper.founders-slider__list {
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+}
 
 /* Show anything Webflow hid until “interactions” */
     [data-w-id] {
@@ -106,4 +40,35 @@
   .swiper-wrapper.founders-slider__list.about-wrapper {
     width: 100vw !important;
   }
+  .founders-slide__heading {
+    padding-top: 40px ;
+    padding-left: 20px;
+}
+  .about-wrapper.founders-slider__list {
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .about-slide.founders-slider__slide {
+        flex: none
+    }
+
+    .about-slide.founders-slider__slide.v1 {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        position: relative
+    }
+
+    .about-slide.founders-slider__slide.v2 {
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 0;
+        position: relative
+    }
 }

@@ -17,6 +17,12 @@
     color: var(--color--primary-black)
 }
 
+@media screen and (max-width: 1181px) {
+    .menu-slide__info {
+        max-width: 90%;
+    }
+}
+
 @media screen and (max-width: 479px) {
     .menu-slide__rich-text {
         letter-spacing: .3px;

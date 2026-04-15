@@ -245,4 +245,14 @@
     .cart-header h3 {
         font-size: 34px;
     }
+
+    .delivery-spacer {
+        padding-bottom: 22vh;
+    }
+}
+
+@media (max-width: 479px) {
+    .delivery-spacer {
+        padding-bottom: 0;
+    }
 }
